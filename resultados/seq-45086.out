@@ -1,0 +1,166 @@
+# Sun Nov 15 11:47:46 -03 2026 host=atlantica01 N=200000
+CPU(s):                          16
+Thread(s) per core:              2
+Core(s) per socket:              4
+Socket(s):                       2
+Model name:                      Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+SEQ modo=delta n=200000 delta=200000 tempo=40.357725 verificacao=OK
+SEQ modo=delta n=200000 delta=200000 tempo=40.372605 verificacao=OK
+SEQ modo=delta n=200000 delta=200000 tempo=40.347696 verificacao=OK
+SEQ modo=delta n=200000 delta=200000 tempo=40.371521 verificacao=OK
+SEQ modo=delta n=200000 delta=200000 tempo=40.375589 verificacao=OK
+SEQ modo=delta n=200000 delta=200000 tempo=40.361225 verificacao=OK
+SEQ modo=delta n=200000 delta=200000 tempo=40.369340 verificacao=OK
+SEQ modo=delta n=200000 delta=200000 tempo=40.348812 verificacao=OK
+SEQ modo=delta n=200000 delta=200000 tempo=40.362127 verificacao=OK
+SEQ modo=delta n=200000 delta=200000 tempo=40.367998 verificacao=OK
+SEQ modo=delta n=200000 delta=100000 tempo=20.082861 verificacao=OK
+SEQ modo=delta n=200000 delta=100000 tempo=20.059658 verificacao=OK
+SEQ modo=delta n=200000 delta=100000 tempo=20.039523 verificacao=OK
+SEQ modo=delta n=200000 delta=100000 tempo=20.111191 verificacao=OK
+SEQ modo=delta n=200000 delta=100000 tempo=20.052328 verificacao=OK
+SEQ modo=delta n=200000 delta=100000 tempo=20.047387 verificacao=OK
+SEQ modo=delta n=200000 delta=100000 tempo=20.073414 verificacao=OK
+SEQ modo=delta n=200000 delta=100000 tempo=20.041787 verificacao=OK
+SEQ modo=delta n=200000 delta=100000 tempo=20.043155 verificacao=OK
+SEQ modo=delta n=200000 delta=100000 tempo=20.050292 verificacao=OK
+SEQ modo=delta n=200000 delta=50000 tempo=9.980049 verificacao=OK
+SEQ modo=delta n=200000 delta=50000 tempo=9.940759 verificacao=OK
+SEQ modo=delta n=200000 delta=50000 tempo=9.935173 verificacao=OK
+SEQ modo=delta n=200000 delta=50000 tempo=9.935493 verificacao=OK
+SEQ modo=delta n=200000 delta=50000 tempo=9.911894 verificacao=OK
+SEQ modo=delta n=200000 delta=50000 tempo=9.942448 verificacao=OK
+SEQ modo=delta n=200000 delta=50000 tempo=9.935193 verificacao=OK
+SEQ modo=delta n=200000 delta=50000 tempo=9.955854 verificacao=OK
+SEQ modo=delta n=200000 delta=50000 tempo=9.939078 verificacao=OK
+SEQ modo=delta n=200000 delta=50000 tempo=9.938520 verificacao=OK
+SEQ modo=delta n=200000 delta=25000 tempo=4.925006 verificacao=OK
+SEQ modo=delta n=200000 delta=25000 tempo=4.916874 verificacao=OK
+SEQ modo=delta n=200000 delta=25000 tempo=4.914951 verificacao=OK
+SEQ modo=delta n=200000 delta=25000 tempo=4.917291 verificacao=OK
+SEQ modo=delta n=200000 delta=25000 tempo=4.923426 verificacao=OK
+SEQ modo=delta n=200000 delta=25000 tempo=4.918439 verificacao=OK
+SEQ modo=delta n=200000 delta=25000 tempo=4.926505 verificacao=OK
+SEQ modo=delta n=200000 delta=25000 tempo=4.918564 verificacao=OK
+SEQ modo=delta n=200000 delta=25000 tempo=4.914420 verificacao=OK
+SEQ modo=delta n=200000 delta=25000 tempo=4.915836 verificacao=OK
+SEQ modo=delta n=200000 delta=12500 tempo=2.390131 verificacao=OK
+SEQ modo=delta n=200000 delta=12500 tempo=2.396691 verificacao=OK
+SEQ modo=delta n=200000 delta=12500 tempo=2.392635 verificacao=OK
+SEQ modo=delta n=200000 delta=12500 tempo=2.385728 verificacao=OK
+SEQ modo=delta n=200000 delta=12500 tempo=2.392745 verificacao=OK
+SEQ modo=delta n=200000 delta=12500 tempo=2.384222 verificacao=OK
+SEQ modo=delta n=200000 delta=12500 tempo=2.391223 verificacao=OK
+SEQ modo=delta n=200000 delta=12500 tempo=2.381109 verificacao=OK
+SEQ modo=delta n=200000 delta=12500 tempo=2.392784 verificacao=OK
+SEQ modo=delta n=200000 delta=12500 tempo=2.384678 verificacao=OK
+SEQ modo=delta n=200000 delta=6250 tempo=1.130361 verificacao=OK
+SEQ modo=delta n=200000 delta=6250 tempo=1.118926 verificacao=OK
+SEQ modo=delta n=200000 delta=6250 tempo=1.124166 verificacao=OK
+SEQ modo=delta n=200000 delta=6250 tempo=1.113539 verificacao=OK
+SEQ modo=delta n=200000 delta=6250 tempo=1.130548 verificacao=OK
+SEQ modo=delta n=200000 delta=6250 tempo=1.124697 verificacao=OK
+SEQ modo=delta n=200000 delta=6250 tempo=1.130294 verificacao=OK
+SEQ modo=delta n=200000 delta=6250 tempo=1.116649 verificacao=OK
+SEQ modo=delta n=200000 delta=6250 tempo=1.129178 verificacao=OK
+SEQ modo=delta n=200000 delta=6250 tempo=1.115633 verificacao=OK
+SEQ modo=delta n=200000 delta=3125 tempo=0.554182 verificacao=OK
+SEQ modo=delta n=200000 delta=3125 tempo=0.552167 verificacao=OK
+SEQ modo=delta n=200000 delta=3125 tempo=0.555665 verificacao=OK
+SEQ modo=delta n=200000 delta=3125 tempo=0.548794 verificacao=OK
+SEQ modo=delta n=200000 delta=3125 tempo=0.543530 verificacao=OK
+SEQ modo=delta n=200000 delta=3125 tempo=0.550818 verificacao=OK
+SEQ modo=delta n=200000 delta=3125 tempo=0.548499 verificacao=OK
+SEQ modo=delta n=200000 delta=3125 tempo=0.557782 verificacao=OK
+SEQ modo=delta n=200000 delta=3125 tempo=0.553519 verificacao=OK
+SEQ modo=delta n=200000 delta=3125 tempo=0.552273 verificacao=OK
+SEQ modo=delta n=200000 delta=1563 tempo=0.289950 verificacao=OK
+SEQ modo=delta n=200000 delta=1563 tempo=0.288271 verificacao=OK
+SEQ modo=delta n=200000 delta=1563 tempo=0.290012 verificacao=OK
+SEQ modo=delta n=200000 delta=1563 tempo=0.290617 verificacao=OK
+SEQ modo=delta n=200000 delta=1563 tempo=0.290641 verificacao=OK
+SEQ modo=delta n=200000 delta=1563 tempo=0.289864 verificacao=OK
+SEQ modo=delta n=200000 delta=1563 tempo=0.291135 verificacao=OK
+SEQ modo=delta n=200000 delta=1563 tempo=0.289940 verificacao=OK
+SEQ modo=delta n=200000 delta=1563 tempo=0.289627 verificacao=OK
+SEQ modo=delta n=200000 delta=1563 tempo=0.290018 verificacao=OK
+SEQ modo=delta n=200000 delta=782 tempo=0.146006 verificacao=OK
+SEQ modo=delta n=200000 delta=782 tempo=0.151670 verificacao=OK
+SEQ modo=delta n=200000 delta=782 tempo=0.150570 verificacao=OK
+SEQ modo=delta n=200000 delta=782 tempo=0.150284 verificacao=OK
+SEQ modo=delta n=200000 delta=782 tempo=0.149651 verificacao=OK
+SEQ modo=delta n=200000 delta=782 tempo=0.149991 verificacao=OK
+SEQ modo=delta n=200000 delta=782 tempo=0.151042 verificacao=OK
+SEQ modo=delta n=200000 delta=782 tempo=0.149820 verificacao=OK
+SEQ modo=delta n=200000 delta=782 tempo=0.149426 verificacao=OK
+SEQ modo=delta n=200000 delta=782 tempo=0.154818 verificacao=OK
+SEQ modo=delta n=200000 delta=391 tempo=0.075455 verificacao=OK
+SEQ modo=delta n=200000 delta=391 tempo=0.080946 verificacao=OK
+SEQ modo=delta n=200000 delta=391 tempo=0.075543 verificacao=OK
+SEQ modo=delta n=200000 delta=391 tempo=0.074917 verificacao=OK
+SEQ modo=delta n=200000 delta=391 tempo=0.074748 verificacao=OK
+SEQ modo=delta n=200000 delta=391 tempo=0.075491 verificacao=OK
+SEQ modo=delta n=200000 delta=391 tempo=0.075578 verificacao=OK
+SEQ modo=delta n=200000 delta=391 tempo=0.074450 verificacao=OK
+SEQ modo=delta n=200000 delta=391 tempo=0.074705 verificacao=OK
+SEQ modo=delta n=200000 delta=391 tempo=0.075376 verificacao=OK
+SEQ modo=balanceada n=200000 P=2 tempo=20.090557 verificacao=OK folhas=2 menor=100000 maior=100000
+SEQ modo=balanceada n=200000 P=2 tempo=20.050340 verificacao=OK folhas=2 menor=100000 maior=100000
+SEQ modo=balanceada n=200000 P=2 tempo=20.052491 verificacao=OK folhas=2 menor=100000 maior=100000
+SEQ modo=balanceada n=200000 P=2 tempo=20.062759 verificacao=OK folhas=2 menor=100000 maior=100000
+SEQ modo=balanceada n=200000 P=2 tempo=20.074308 verificacao=OK folhas=2 menor=100000 maior=100000
+SEQ modo=balanceada n=200000 P=2 tempo=20.074979 verificacao=OK folhas=2 menor=100000 maior=100000
+SEQ modo=balanceada n=200000 P=2 tempo=20.061812 verificacao=OK folhas=2 menor=100000 maior=100000
+SEQ modo=balanceada n=200000 P=2 tempo=20.076569 verificacao=OK folhas=2 menor=100000 maior=100000
+SEQ modo=balanceada n=200000 P=2 tempo=20.066998 verificacao=OK folhas=2 menor=100000 maior=100000
+SEQ modo=balanceada n=200000 P=2 tempo=20.061037 verificacao=OK folhas=2 menor=100000 maior=100000
+SEQ modo=balanceada n=200000 P=4 tempo=9.922019 verificacao=OK folhas=4 menor=50000 maior=50000
+SEQ modo=balanceada n=200000 P=4 tempo=9.954914 verificacao=OK folhas=4 menor=50000 maior=50000
+SEQ modo=balanceada n=200000 P=4 tempo=9.943259 verificacao=OK folhas=4 menor=50000 maior=50000
+SEQ modo=balanceada n=200000 P=4 tempo=9.961199 verificacao=OK folhas=4 menor=50000 maior=50000
+SEQ modo=balanceada n=200000 P=4 tempo=9.965828 verificacao=OK folhas=4 menor=50000 maior=50000
+SEQ modo=balanceada n=200000 P=4 tempo=9.979006 verificacao=OK folhas=4 menor=50000 maior=50000
+SEQ modo=balanceada n=200000 P=4 tempo=9.946691 verificacao=OK folhas=4 menor=50000 maior=50000
+SEQ modo=balanceada n=200000 P=4 tempo=9.971160 verificacao=OK folhas=4 menor=50000 maior=50000
+SEQ modo=balanceada n=200000 P=4 tempo=9.956037 verificacao=OK folhas=4 menor=50000 maior=50000
+SEQ modo=balanceada n=200000 P=4 tempo=9.937371 verificacao=OK folhas=4 menor=50000 maior=50000
+SEQ modo=balanceada n=200000 P=8 tempo=4.924024 verificacao=OK folhas=8 menor=25000 maior=25000
+SEQ modo=balanceada n=200000 P=8 tempo=4.921374 verificacao=OK folhas=8 menor=25000 maior=25000
+SEQ modo=balanceada n=200000 P=8 tempo=4.923773 verificacao=OK folhas=8 menor=25000 maior=25000
+SEQ modo=balanceada n=200000 P=8 tempo=4.916596 verificacao=OK folhas=8 menor=25000 maior=25000
+SEQ modo=balanceada n=200000 P=8 tempo=4.918983 verificacao=OK folhas=8 menor=25000 maior=25000
+SEQ modo=balanceada n=200000 P=8 tempo=4.922505 verificacao=OK folhas=8 menor=25000 maior=25000
+SEQ modo=balanceada n=200000 P=8 tempo=4.917184 verificacao=OK folhas=8 menor=25000 maior=25000
+SEQ modo=balanceada n=200000 P=8 tempo=4.909113 verificacao=OK folhas=8 menor=25000 maior=25000
+SEQ modo=balanceada n=200000 P=8 tempo=4.918406 verificacao=OK folhas=8 menor=25000 maior=25000
+SEQ modo=balanceada n=200000 P=8 tempo=4.915982 verificacao=OK folhas=8 menor=25000 maior=25000
+SEQ modo=balanceada n=200000 P=16 tempo=2.384047 verificacao=OK folhas=16 menor=12500 maior=12500
+SEQ modo=balanceada n=200000 P=16 tempo=2.392781 verificacao=OK folhas=16 menor=12500 maior=12500
+SEQ modo=balanceada n=200000 P=16 tempo=2.389717 verificacao=OK folhas=16 menor=12500 maior=12500
+SEQ modo=balanceada n=200000 P=16 tempo=2.386498 verificacao=OK folhas=16 menor=12500 maior=12500
+SEQ modo=balanceada n=200000 P=16 tempo=2.386453 verificacao=OK folhas=16 menor=12500 maior=12500
+SEQ modo=balanceada n=200000 P=16 tempo=2.390444 verificacao=OK folhas=16 menor=12500 maior=12500
+SEQ modo=balanceada n=200000 P=16 tempo=2.388706 verificacao=OK folhas=16 menor=12500 maior=12500
+SEQ modo=balanceada n=200000 P=16 tempo=2.385645 verificacao=OK folhas=16 menor=12500 maior=12500
+SEQ modo=balanceada n=200000 P=16 tempo=2.398054 verificacao=OK folhas=16 menor=12500 maior=12500
+SEQ modo=balanceada n=200000 P=16 tempo=2.385384 verificacao=OK folhas=16 menor=12500 maior=12500
+SEQ modo=balanceada n=200000 P=31 tempo=1.203299 verificacao=OK folhas=31 menor=6250 maior=12500
+SEQ modo=balanceada n=200000 P=31 tempo=1.214138 verificacao=OK folhas=31 menor=6250 maior=12500
+SEQ modo=balanceada n=200000 P=31 tempo=1.202783 verificacao=OK folhas=31 menor=6250 maior=12500
+SEQ modo=balanceada n=200000 P=31 tempo=1.210286 verificacao=OK folhas=31 menor=6250 maior=12500
+SEQ modo=balanceada n=200000 P=31 tempo=1.202897 verificacao=OK folhas=31 menor=6250 maior=12500
+SEQ modo=balanceada n=200000 P=31 tempo=1.199158 verificacao=OK folhas=31 menor=6250 maior=12500
+SEQ modo=balanceada n=200000 P=31 tempo=1.191293 verificacao=OK folhas=31 menor=6250 maior=12500
+SEQ modo=balanceada n=200000 P=31 tempo=1.196210 verificacao=OK folhas=31 menor=6250 maior=12500
+SEQ modo=balanceada n=200000 P=31 tempo=1.203111 verificacao=OK folhas=31 menor=6250 maior=12500
+SEQ modo=balanceada n=200000 P=31 tempo=1.196367 verificacao=OK folhas=31 menor=6250 maior=12500
+SEQ modo=balanceada n=200000 P=32 tempo=1.124994 verificacao=OK folhas=32 menor=6250 maior=6250
+SEQ modo=balanceada n=200000 P=32 tempo=1.125524 verificacao=OK folhas=32 menor=6250 maior=6250
+SEQ modo=balanceada n=200000 P=32 tempo=1.116332 verificacao=OK folhas=32 menor=6250 maior=6250
+SEQ modo=balanceada n=200000 P=32 tempo=1.122402 verificacao=OK folhas=32 menor=6250 maior=6250
+SEQ modo=balanceada n=200000 P=32 tempo=1.118815 verificacao=OK folhas=32 menor=6250 maior=6250
+SEQ modo=balanceada n=200000 P=32 tempo=1.122360 verificacao=OK folhas=32 menor=6250 maior=6250
+SEQ modo=balanceada n=200000 P=32 tempo=1.122444 verificacao=OK folhas=32 menor=6250 maior=6250
+SEQ modo=balanceada n=200000 P=32 tempo=1.119511 verificacao=OK folhas=32 menor=6250 maior=6250
+SEQ modo=balanceada n=200000 P=32 tempo=1.113965 verificacao=OK folhas=32 menor=6250 maior=6250
+SEQ modo=balanceada n=200000 P=32 tempo=1.116505 verificacao=OK folhas=32 menor=6250 maior=6250

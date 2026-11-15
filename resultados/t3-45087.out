@@ -1,0 +1,22 @@
+# Sun Nov 15 12:21:00 -03 2026 versao=original P=1 N=200000 yield=nd nodes=atlantica01
+# distribuicao (tarefas por no):
+      1 atlantica01
+REP 1 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.363432 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.363430 t_merge=0.000000 t_espera=0.000000
+REP 2 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.368381 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.368379 t_merge=0.000000 t_espera=0.000000
+REP 3 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.351178 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.351176 t_merge=0.000000 t_espera=0.000000
+REP 4 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.362228 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.362226 t_merge=0.000000 t_espera=0.000000
+REP 5 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.376756 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.376754 t_merge=0.000000 t_espera=0.000000
+REP 6 yield=nd
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-atlantica01: error: *** JOB 45087 ON atlantica01 CANCELLED AT 2026-11-15T12:24:42 ***
+slurmstepd-atlantica01: error: *** STEP 45087.6 ON atlantica01 CANCELLED AT 2026-11-15T12:24:42 ***

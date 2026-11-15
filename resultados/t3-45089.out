@@ -1,0 +1,33 @@
+# Sun Nov 15 12:29:21 -03 2026 versao=original P=1 N=200000 yield=nd nodes=atlantica01
+# distribuicao (tarefas por no):
+      1 atlantica01
+REP 1 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.441556 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.441549 t_merge=0.000000 t_espera=0.000000
+REP 2 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.380043 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.380041 t_merge=0.000000 t_espera=0.000000
+REP 3 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.369610 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.369608 t_merge=0.000000 t_espera=0.000000
+REP 4 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.355755 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.355753 t_merge=0.000000 t_espera=0.000000
+REP 5 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.369310 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.369308 t_merge=0.000000 t_espera=0.000000
+REP 6 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.352999 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.352997 t_merge=0.000000 t_espera=0.000000
+REP 7 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.349690 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.349688 t_merge=0.000000 t_espera=0.000000
+REP 8 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.378473 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.378471 t_merge=0.000000 t_espera=0.000000
+REP 9 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.369878 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.369877 t_merge=0.000000 t_espera=0.000000
+REP 10 yield=nd
+RESULT versao=original n=200000 delta=200000 P=1 tempo=40.355027 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=1 t_bubble=40.355025 t_merge=0.000000 t_espera=0.000000

@@ -1,0 +1,15 @@
+SEQ modo=delta n=150000 delta=150000 tempo=22.661518 verificacao=OK
+SEQ modo=delta n=200000 delta=200000 tempo=40.350764 verificacao=OK
+SEQ modo=delta n=225000 delta=225000 tempo=51.099566 verificacao=OK
+SEQ modo=delta n=250000 delta=250000 tempo=63.117108 verificacao=OK
+SEQ modo=delta n=275000 delta=275000 tempo=76.370442 verificacao=OK
+SEQ modo=delta n=300000 delta=300000 tempo=90.833510 verificacao=OK
+
+===== RESUMO (T1 alvo: 30 a 60 s) =====
+N          T1 (s)      
+150000     22.662       
+200000     40.351       <== OK
+225000     51.100       <== OK
+250000     63.117       
+275000     76.370       
+300000     90.834       

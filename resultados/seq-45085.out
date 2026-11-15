@@ -1,9 +1,0 @@
-# Sun Nov 15 11:44:41 -03 2026 host=atlantica01 N=200000
-CPU(s):                          16
-Thread(s) per core:              2
-Core(s) per socket:              4
-Socket(s):                       2
-Model name:                      Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
-SEQ modo=delta n=200000 delta=200000 tempo=40.374169 verificacao=OK
-SEQ modo=delta n=200000 delta=200000 tempo=40.346793 verificacao=OK
-slurmstepd-atlantica01: error: *** JOB 45085 ON atlantica01 CANCELLED AT 2026-11-15T11:46:24 ***

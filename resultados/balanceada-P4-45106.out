@@ -1,0 +1,69 @@
+# Sun Nov 15 13:05:18 -03 2026 versao=balanceada P=4 N=200000 yield=nd nodes=atlantica[01,03]
+# distribuicao (tarefas por no):
+      2 atlantica01
+      2 atlantica03
+# rank -> no:
+rank=0 no=atlantica01
+rank=1 no=atlantica01
+rank=2 no=atlantica03
+rank=3 no=atlantica03
+REP 1
+RESULT versao=balanceada n=200000 delta=0 P=4 tempo=5.014019 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=50000 t_bubble=2.514704 t_merge=0.001061 t_espera=2.498178
+STAT rank=1 nivel=1 tam=100000 folha=50000 t_bubble=2.514432 t_merge=0.000419 t_espera=2.497710
+STAT rank=2 nivel=2 tam=50000 folha=50000 t_bubble=2.487586 t_merge=0.000000 t_espera=0.000000
+STAT rank=3 nivel=2 tam=50000 folha=50000 t_bubble=2.492968 t_merge=0.000000 t_espera=0.000000
+REP 2
+RESULT versao=balanceada n=200000 delta=0 P=4 tempo=5.025446 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=50000 t_bubble=2.496828 t_merge=0.001119 t_espera=2.527420
+STAT rank=1 nivel=1 tam=100000 folha=50000 t_bubble=2.486760 t_merge=0.000427 t_espera=2.495715
+STAT rank=2 nivel=2 tam=50000 folha=50000 t_bubble=2.522362 t_merge=0.000000 t_espera=0.000000
+STAT rank=3 nivel=2 tam=50000 folha=50000 t_bubble=2.490964 t_merge=0.000000 t_espera=0.000000
+REP 3
+RESULT versao=balanceada n=200000 delta=0 P=4 tempo=5.001222 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=50000 t_bubble=2.484108 t_merge=0.001126 t_espera=2.515899
+STAT rank=1 nivel=1 tam=100000 folha=50000 t_bubble=2.493872 t_merge=0.000421 t_espera=2.505391
+STAT rank=2 nivel=2 tam=50000 folha=50000 t_bubble=2.470716 t_merge=0.000000 t_espera=0.000000
+STAT rank=3 nivel=2 tam=50000 folha=50000 t_bubble=2.500723 t_merge=0.000000 t_espera=0.000000
+REP 4
+RESULT versao=balanceada n=200000 delta=0 P=4 tempo=5.047907 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=50000 t_bubble=2.545539 t_merge=0.001179 t_espera=2.501109
+STAT rank=1 nivel=1 tam=100000 folha=50000 t_bubble=2.472417 t_merge=0.000427 t_espera=2.500757
+STAT rank=2 nivel=2 tam=50000 folha=50000 t_bubble=2.497661 t_merge=0.000000 t_espera=0.000000
+STAT rank=3 nivel=2 tam=50000 folha=50000 t_bubble=2.497540 t_merge=0.000000 t_espera=0.000000
+REP 5
+RESULT versao=balanceada n=200000 delta=0 P=4 tempo=5.022199 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=50000 t_bubble=2.492647 t_merge=0.001055 t_espera=2.528420
+STAT rank=1 nivel=1 tam=100000 folha=50000 t_bubble=2.512582 t_merge=0.000424 t_espera=2.507778
+STAT rank=2 nivel=2 tam=50000 folha=50000 t_bubble=2.475061 t_merge=0.000000 t_espera=0.000000
+STAT rank=3 nivel=2 tam=50000 folha=50000 t_bubble=2.504619 t_merge=0.000000 t_espera=0.000000
+REP 6
+RESULT versao=balanceada n=200000 delta=0 P=4 tempo=5.012359 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=50000 t_bubble=2.497900 t_merge=0.001137 t_espera=2.513241
+STAT rank=1 nivel=1 tam=100000 folha=50000 t_bubble=2.479254 t_merge=0.000394 t_espera=2.531177
+STAT rank=2 nivel=2 tam=50000 folha=50000 t_bubble=2.478829 t_merge=0.000000 t_espera=0.000000
+STAT rank=3 nivel=2 tam=50000 folha=50000 t_bubble=2.527566 t_merge=0.000000 t_espera=0.000000
+REP 7
+RESULT versao=balanceada n=200000 delta=0 P=4 tempo=5.029620 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=50000 t_bubble=2.499871 t_merge=0.001060 t_espera=2.528399
+STAT rank=1 nivel=1 tam=100000 folha=50000 t_bubble=2.510968 t_merge=0.000427 t_espera=2.516562
+STAT rank=2 nivel=2 tam=50000 folha=50000 t_bubble=2.497460 t_merge=0.000000 t_espera=0.000000
+STAT rank=3 nivel=2 tam=50000 folha=50000 t_bubble=2.513186 t_merge=0.000000 t_espera=0.000000
+REP 8
+RESULT versao=balanceada n=200000 delta=0 P=4 tempo=4.984804 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=50000 t_bubble=2.496750 t_merge=0.001277 t_espera=2.486702
+STAT rank=1 nivel=1 tam=100000 folha=50000 t_bubble=2.490599 t_merge=0.000426 t_espera=2.475458
+STAT rank=2 nivel=2 tam=50000 folha=50000 t_bubble=2.483225 t_merge=0.000000 t_espera=0.000000
+STAT rank=3 nivel=2 tam=50000 folha=50000 t_bubble=2.472088 t_merge=0.000000 t_espera=0.000000
+REP 9
+RESULT versao=balanceada n=200000 delta=0 P=4 tempo=5.014587 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=50000 t_bubble=2.498592 t_merge=0.001047 t_espera=2.514864
+STAT rank=1 nivel=1 tam=100000 folha=50000 t_bubble=2.492924 t_merge=0.000422 t_espera=2.519771
+STAT rank=2 nivel=2 tam=50000 folha=50000 t_bubble=2.477465 t_merge=0.000000 t_espera=0.000000
+STAT rank=3 nivel=2 tam=50000 folha=50000 t_bubble=2.516756 t_merge=0.000000 t_espera=0.000000
+REP 10
+RESULT versao=balanceada n=200000 delta=0 P=4 tempo=4.992216 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=50000 t_bubble=2.494169 t_merge=0.001072 t_espera=2.496893
+STAT rank=1 nivel=1 tam=100000 folha=50000 t_bubble=2.499242 t_merge=0.000418 t_espera=2.491068
+STAT rank=2 nivel=2 tam=50000 folha=50000 t_bubble=2.468820 t_merge=0.000000 t_espera=0.000000
+STAT rank=3 nivel=2 tam=50000 folha=50000 t_bubble=2.487693 t_merge=0.000000 t_espera=0.000000

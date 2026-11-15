@@ -5,7 +5,7 @@
 #SBATCH --job-name=t3
 #SBATCH --output=resultados/%x-%j.out
 # Uso (ntasks vai na linha de comando):
-#   N=<n> VERSAO=original|balanceada [YIELD=0|1] sbatch --ntasks=P scripts/job.sh
+#   N=<n> VERSAO=original|balanceada|balanceada_send [YIELD=0|1] sbatch --ntasks=P scripts/job.sh
 cd "$SLURM_SUBMIT_DIR"
 : "${N:?}"; : "${VERSAO:?}"; REPS=${REPS:-10}; P=$SLURM_NTASKS
 [ -n "$YIELD" ] && export OMPI_MCA_mpi_yield_when_idle=$YIELD   # definido explicitamente
@@ -17,6 +17,6 @@ for r in $(seq $REPS); do
     D=$(( (2*N + P) / (P+1) ))                 # delta = ceil(2n/(P+1))
     echo "REP $r yield=${YIELD:-nd}"; srun ./original $N $D
   else
-    echo "REP $r"; srun ./balanceada $N
+    echo "REP $r"; srun ./$VERSAO $N              # balanceada ou balanceada_send
   fi
 done

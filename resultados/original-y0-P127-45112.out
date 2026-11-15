@@ -1,0 +1,1422 @@
+# Sun Nov 15 13:19:44 -03 2026 versao=original P=127 N=200000 yield=0 nodes=atlantica[01,03]
+# distribuicao (tarefas por no):
+     64 atlantica01
+     63 atlantica03
+# rank -> no:
+rank=0 no=atlantica01
+rank=1 no=atlantica01
+rank=2 no=atlantica01
+rank=3 no=atlantica01
+rank=4 no=atlantica01
+rank=5 no=atlantica01
+rank=6 no=atlantica01
+rank=7 no=atlantica01
+rank=8 no=atlantica01
+rank=9 no=atlantica01
+rank=10 no=atlantica01
+rank=11 no=atlantica01
+rank=12 no=atlantica01
+rank=13 no=atlantica01
+rank=14 no=atlantica01
+rank=15 no=atlantica01
+rank=16 no=atlantica01
+rank=17 no=atlantica01
+rank=18 no=atlantica01
+rank=19 no=atlantica01
+rank=20 no=atlantica01
+rank=21 no=atlantica01
+rank=22 no=atlantica01
+rank=23 no=atlantica01
+rank=24 no=atlantica01
+rank=25 no=atlantica01
+rank=26 no=atlantica01
+rank=27 no=atlantica01
+rank=28 no=atlantica01
+rank=29 no=atlantica01
+rank=30 no=atlantica01
+rank=31 no=atlantica01
+rank=32 no=atlantica01
+rank=33 no=atlantica01
+rank=34 no=atlantica01
+rank=35 no=atlantica01
+rank=36 no=atlantica01
+rank=37 no=atlantica01
+rank=38 no=atlantica01
+rank=39 no=atlantica01
+rank=40 no=atlantica01
+rank=41 no=atlantica01
+rank=42 no=atlantica01
+rank=43 no=atlantica01
+rank=44 no=atlantica01
+rank=45 no=atlantica01
+rank=46 no=atlantica01
+rank=47 no=atlantica01
+rank=48 no=atlantica01
+rank=49 no=atlantica01
+rank=50 no=atlantica01
+rank=51 no=atlantica01
+rank=52 no=atlantica01
+rank=53 no=atlantica01
+rank=54 no=atlantica01
+rank=55 no=atlantica01
+rank=56 no=atlantica01
+rank=57 no=atlantica01
+rank=58 no=atlantica01
+rank=59 no=atlantica01
+rank=60 no=atlantica01
+rank=61 no=atlantica01
+rank=62 no=atlantica01
+rank=63 no=atlantica01
+rank=64 no=atlantica03
+rank=65 no=atlantica03
+rank=66 no=atlantica03
+rank=67 no=atlantica03
+rank=68 no=atlantica03
+rank=69 no=atlantica03
+rank=70 no=atlantica03
+rank=71 no=atlantica03
+rank=72 no=atlantica03
+rank=73 no=atlantica03
+rank=74 no=atlantica03
+rank=75 no=atlantica03
+rank=76 no=atlantica03
+rank=77 no=atlantica03
+rank=78 no=atlantica03
+rank=79 no=atlantica03
+rank=80 no=atlantica03
+rank=81 no=atlantica03
+rank=82 no=atlantica03
+rank=83 no=atlantica03
+rank=84 no=atlantica03
+rank=85 no=atlantica03
+rank=86 no=atlantica03
+rank=87 no=atlantica03
+rank=88 no=atlantica03
+rank=89 no=atlantica03
+rank=90 no=atlantica03
+rank=91 no=atlantica03
+rank=92 no=atlantica03
+rank=93 no=atlantica03
+rank=94 no=atlantica03
+rank=95 no=atlantica03
+rank=96 no=atlantica03
+rank=97 no=atlantica03
+rank=98 no=atlantica03
+rank=99 no=atlantica03
+rank=100 no=atlantica03
+rank=101 no=atlantica03
+rank=102 no=atlantica03
+rank=103 no=atlantica03
+rank=104 no=atlantica03
+rank=105 no=atlantica03
+rank=106 no=atlantica03
+rank=107 no=atlantica03
+rank=108 no=atlantica03
+rank=109 no=atlantica03
+rank=110 no=atlantica03
+rank=111 no=atlantica03
+rank=112 no=atlantica03
+rank=113 no=atlantica03
+rank=114 no=atlantica03
+rank=115 no=atlantica03
+rank=116 no=atlantica03
+rank=117 no=atlantica03
+rank=118 no=atlantica03
+rank=119 no=atlantica03
+rank=120 no=atlantica03
+rank=121 no=atlantica03
+rank=122 no=atlantica03
+rank=123 no=atlantica03
+rank=124 no=atlantica03
+rank=125 no=atlantica03
+rank=126 no=atlantica03
+REP 1 yield=0
+RESULT versao=original n=200000 delta=3125 P=127 tempo=0.264405 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=0 t_bubble=0.000000 t_merge=0.000963 t_espera=0.262595
+STAT rank=1 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000581 t_espera=0.154014
+STAT rank=2 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000540 t_espera=0.202529
+STAT rank=3 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000268 t_espera=0.177359
+STAT rank=4 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000280 t_espera=0.112549
+STAT rank=5 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000267 t_espera=0.141461
+STAT rank=6 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000264 t_espera=0.170062
+STAT rank=7 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000124 t_espera=0.156166
+STAT rank=8 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000165 t_espera=0.125151
+STAT rank=9 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000202 t_espera=0.092146
+STAT rank=10 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000135 t_espera=0.096446
+STAT rank=11 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000306 t_espera=0.064476
+STAT rank=12 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000132 t_espera=0.129160
+STAT rank=13 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000133 t_espera=0.108211
+STAT rank=14 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000311 t_espera=0.128866
+STAT rank=15 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000062 t_espera=0.112008
+STAT rank=16 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000067 t_espera=0.116116
+STAT rank=17 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000068 t_espera=0.103960
+STAT rank=18 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000072 t_espera=0.124509
+STAT rank=19 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000062 t_espera=0.092632
+STAT rank=20 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000070 t_espera=0.039978
+STAT rank=21 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.083944
+STAT rank=22 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000066 t_espera=0.076225
+STAT rank=23 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.094641
+STAT rank=24 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000172 t_espera=0.060070
+STAT rank=25 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000066 t_espera=0.057126
+STAT rank=26 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000060 t_espera=0.080465
+STAT rank=27 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.115868
+STAT rank=28 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.131875
+STAT rank=29 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000069 t_espera=0.147659
+STAT rank=30 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.087073
+STAT rank=31 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.056178
+STAT rank=32 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.055984
+STAT rank=33 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.036690
+STAT rank=34 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.048006
+STAT rank=35 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.068923
+STAT rank=36 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.047379
+STAT rank=37 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.065068
+STAT rank=38 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.095448
+STAT rank=39 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.043971
+STAT rank=40 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.041502
+STAT rank=41 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.046349
+STAT rank=42 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.017826
+STAT rank=43 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.046265
+STAT rank=44 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.074415
+STAT rank=45 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.028311
+STAT rank=46 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.070827
+STAT rank=47 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.069984
+STAT rank=48 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.066112
+STAT rank=49 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000037 t_espera=0.027588
+STAT rank=50 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.043557
+STAT rank=51 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.082937
+STAT rank=52 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000036 t_espera=0.058441
+STAT rank=53 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.079996
+STAT rank=54 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000038 t_espera=0.039644
+STAT rank=55 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.082796
+STAT rank=56 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.076048
+STAT rank=57 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.080066
+STAT rank=58 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.059366
+STAT rank=59 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.064000
+STAT rank=60 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.044667
+STAT rank=61 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.070939
+STAT rank=62 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.036838
+STAT rank=63 nivel=6 tam=3125 folha=1 t_bubble=0.047850 t_merge=0.000000 t_espera=0.000000
+STAT rank=64 nivel=6 tam=3125 folha=1 t_bubble=0.038737 t_merge=0.000000 t_espera=0.000000
+STAT rank=65 nivel=6 tam=3125 folha=1 t_bubble=0.037311 t_merge=0.000000 t_espera=0.000000
+STAT rank=66 nivel=6 tam=3125 folha=1 t_bubble=0.034936 t_merge=0.000000 t_espera=0.000000
+STAT rank=67 nivel=6 tam=3125 folha=1 t_bubble=0.035838 t_merge=0.000000 t_espera=0.000000
+STAT rank=68 nivel=6 tam=3125 folha=1 t_bubble=0.036141 t_merge=0.000000 t_espera=0.000000
+STAT rank=69 nivel=6 tam=3125 folha=1 t_bubble=0.045740 t_merge=0.000000 t_espera=0.000000
+STAT rank=70 nivel=6 tam=3125 folha=1 t_bubble=0.020132 t_merge=0.000000 t_espera=0.000000
+STAT rank=71 nivel=6 tam=3125 folha=1 t_bubble=0.029613 t_merge=0.000000 t_espera=0.000000
+STAT rank=72 nivel=6 tam=3125 folha=1 t_bubble=0.068458 t_merge=0.000000 t_espera=0.000000
+STAT rank=73 nivel=6 tam=3125 folha=1 t_bubble=0.030046 t_merge=0.000000 t_espera=0.000000
+STAT rank=74 nivel=6 tam=3125 folha=1 t_bubble=0.021569 t_merge=0.000000 t_espera=0.000000
+STAT rank=75 nivel=6 tam=3125 folha=1 t_bubble=0.065031 t_merge=0.000000 t_espera=0.000000
+STAT rank=76 nivel=6 tam=3125 folha=1 t_bubble=0.044203 t_merge=0.000000 t_espera=0.000000
+STAT rank=77 nivel=6 tam=3125 folha=1 t_bubble=0.042240 t_merge=0.000000 t_espera=0.000000
+STAT rank=78 nivel=6 tam=3125 folha=1 t_bubble=0.071992 t_merge=0.000000 t_espera=0.000000
+STAT rank=79 nivel=6 tam=3125 folha=1 t_bubble=0.037313 t_merge=0.000000 t_espera=0.000000
+STAT rank=80 nivel=6 tam=3125 folha=1 t_bubble=0.036613 t_merge=0.000000 t_espera=0.000000
+STAT rank=81 nivel=6 tam=3125 folha=1 t_bubble=0.035855 t_merge=0.000000 t_espera=0.000000
+STAT rank=82 nivel=6 tam=3125 folha=1 t_bubble=0.040693 t_merge=0.000000 t_espera=0.000000
+STAT rank=83 nivel=6 tam=3125 folha=1 t_bubble=0.038134 t_merge=0.000000 t_espera=0.000000
+STAT rank=84 nivel=6 tam=3125 folha=1 t_bubble=0.045599 t_merge=0.000000 t_espera=0.000000
+STAT rank=85 nivel=6 tam=3125 folha=1 t_bubble=0.021623 t_merge=0.000000 t_espera=0.000000
+STAT rank=86 nivel=6 tam=3125 folha=1 t_bubble=0.011987 t_merge=0.000000 t_espera=0.000000
+STAT rank=87 nivel=6 tam=3125 folha=1 t_bubble=0.051983 t_merge=0.000000 t_espera=0.000000
+STAT rank=88 nivel=6 tam=3125 folha=1 t_bubble=0.029119 t_merge=0.000000 t_espera=0.000000
+STAT rank=89 nivel=6 tam=3125 folha=1 t_bubble=0.024457 t_merge=0.000000 t_espera=0.000000
+STAT rank=90 nivel=6 tam=3125 folha=1 t_bubble=0.050718 t_merge=0.000000 t_espera=0.000000
+STAT rank=91 nivel=6 tam=3125 folha=1 t_bubble=0.053033 t_merge=0.000000 t_espera=0.000000
+STAT rank=92 nivel=6 tam=3125 folha=1 t_bubble=0.023221 t_merge=0.000000 t_espera=0.000000
+STAT rank=93 nivel=6 tam=3125 folha=1 t_bubble=0.060079 t_merge=0.000000 t_espera=0.000000
+STAT rank=94 nivel=6 tam=3125 folha=1 t_bubble=0.037844 t_merge=0.000000 t_espera=0.000000
+STAT rank=95 nivel=6 tam=3125 folha=1 t_bubble=0.049282 t_merge=0.000000 t_espera=0.000000
+STAT rank=96 nivel=6 tam=3125 folha=1 t_bubble=0.027960 t_merge=0.000000 t_espera=0.000000
+STAT rank=97 nivel=6 tam=3125 folha=1 t_bubble=0.042511 t_merge=0.000000 t_espera=0.000000
+STAT rank=98 nivel=6 tam=3125 folha=1 t_bubble=0.026152 t_merge=0.000000 t_espera=0.000000
+STAT rank=99 nivel=6 tam=3125 folha=1 t_bubble=0.046976 t_merge=0.000000 t_espera=0.000000
+STAT rank=100 nivel=6 tam=3125 folha=1 t_bubble=0.027057 t_merge=0.000000 t_espera=0.000000
+STAT rank=101 nivel=6 tam=3125 folha=1 t_bubble=0.044040 t_merge=0.000000 t_espera=0.000000
+STAT rank=102 nivel=6 tam=3125 folha=1 t_bubble=0.033729 t_merge=0.000000 t_espera=0.000000
+STAT rank=103 nivel=6 tam=3125 folha=1 t_bubble=0.053500 t_merge=0.000000 t_espera=0.000000
+STAT rank=104 nivel=6 tam=3125 folha=1 t_bubble=0.054893 t_merge=0.000000 t_espera=0.000000
+STAT rank=105 nivel=6 tam=3125 folha=1 t_bubble=0.037704 t_merge=0.000000 t_espera=0.000000
+STAT rank=106 nivel=6 tam=3125 folha=1 t_bubble=0.033839 t_merge=0.000000 t_espera=0.000000
+STAT rank=107 nivel=6 tam=3125 folha=1 t_bubble=0.074425 t_merge=0.000000 t_espera=0.000000
+STAT rank=108 nivel=6 tam=3125 folha=1 t_bubble=0.038215 t_merge=0.000000 t_espera=0.000000
+STAT rank=109 nivel=6 tam=3125 folha=1 t_bubble=0.010627 t_merge=0.000000 t_espera=0.000000
+STAT rank=110 nivel=6 tam=3125 folha=1 t_bubble=0.027872 t_merge=0.000000 t_espera=0.000000
+STAT rank=111 nivel=6 tam=3125 folha=1 t_bubble=0.035857 t_merge=0.000000 t_espera=0.000000
+STAT rank=112 nivel=6 tam=3125 folha=1 t_bubble=0.049157 t_merge=0.000000 t_espera=0.000000
+STAT rank=113 nivel=6 tam=3125 folha=1 t_bubble=0.037363 t_merge=0.000000 t_espera=0.000000
+STAT rank=114 nivel=6 tam=3125 folha=1 t_bubble=0.036768 t_merge=0.000000 t_espera=0.000000
+STAT rank=115 nivel=6 tam=3125 folha=1 t_bubble=0.038776 t_merge=0.000000 t_espera=0.000000
+STAT rank=116 nivel=6 tam=3125 folha=1 t_bubble=0.069981 t_merge=0.000000 t_espera=0.000000
+STAT rank=117 nivel=6 tam=3125 folha=1 t_bubble=0.028470 t_merge=0.000000 t_espera=0.000000
+STAT rank=118 nivel=6 tam=3125 folha=1 t_bubble=0.046002 t_merge=0.000000 t_espera=0.000000
+STAT rank=119 nivel=6 tam=3125 folha=1 t_bubble=0.045060 t_merge=0.000000 t_espera=0.000000
+STAT rank=120 nivel=6 tam=3125 folha=1 t_bubble=0.037111 t_merge=0.000000 t_espera=0.000000
+STAT rank=121 nivel=6 tam=3125 folha=1 t_bubble=0.019822 t_merge=0.000000 t_espera=0.000000
+STAT rank=122 nivel=6 tam=3125 folha=1 t_bubble=0.044208 t_merge=0.000000 t_espera=0.000000
+STAT rank=123 nivel=6 tam=3125 folha=1 t_bubble=0.057736 t_merge=0.000000 t_espera=0.000000
+STAT rank=124 nivel=6 tam=3125 folha=1 t_bubble=0.070160 t_merge=0.000000 t_espera=0.000000
+STAT rank=125 nivel=6 tam=3125 folha=1 t_bubble=0.035662 t_merge=0.000000 t_espera=0.000000
+STAT rank=126 nivel=6 tam=3125 folha=1 t_bubble=0.036357 t_merge=0.000000 t_espera=0.000000
+REP 2 yield=0
+RESULT versao=original n=200000 delta=3125 P=127 tempo=0.245147 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=0 t_bubble=0.000000 t_merge=0.001020 t_espera=0.165241
+STAT rank=1 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000539 t_espera=0.188535
+STAT rank=2 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000453 t_espera=0.192333
+STAT rank=3 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000245 t_espera=0.140083
+STAT rank=4 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000406 t_espera=0.176269
+STAT rank=5 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000235 t_espera=0.100125
+STAT rank=6 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000780 t_espera=0.100587
+STAT rank=7 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000139 t_espera=0.104015
+STAT rank=8 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000148 t_espera=0.135979
+STAT rank=9 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000129 t_espera=0.140038
+STAT rank=10 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000200 t_espera=0.168040
+STAT rank=11 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000141 t_espera=0.132043
+STAT rank=12 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000352 t_espera=0.112075
+STAT rank=13 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000131 t_espera=0.144073
+STAT rank=14 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000137 t_espera=0.115807
+STAT rank=15 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.108019
+STAT rank=16 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000077 t_espera=0.078193
+STAT rank=17 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.064063
+STAT rank=18 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.095933
+STAT rank=19 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.143950
+STAT rank=20 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000069 t_espera=0.120360
+STAT rank=21 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.096042
+STAT rank=22 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.104201
+STAT rank=23 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000066 t_espera=0.112020
+STAT rank=24 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000066 t_espera=0.088106
+STAT rank=25 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000067 t_espera=0.095955
+STAT rank=26 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000074 t_espera=0.099961
+STAT rank=27 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000062 t_espera=0.088018
+STAT rank=28 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000231 t_espera=0.092267
+STAT rank=29 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000057 t_espera=0.040027
+STAT rank=30 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000046 t_espera=0.072009
+STAT rank=31 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000036 t_espera=0.090866
+STAT rank=32 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000034 t_espera=0.078271
+STAT rank=33 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000052 t_espera=0.040069
+STAT rank=34 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.040073
+STAT rank=35 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000387 t_espera=0.065458
+STAT rank=36 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000038 t_espera=0.044013
+STAT rank=37 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.067067
+STAT rank=38 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.046839
+STAT rank=39 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.119448
+STAT rank=40 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.033052
+STAT rank=41 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.044054
+STAT rank=42 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.036475
+STAT rank=43 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.063952
+STAT rank=44 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.048017
+STAT rank=45 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.092004
+STAT rank=46 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.051030
+STAT rank=47 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.082396
+STAT rank=48 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.060066
+STAT rank=49 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.048276
+STAT rank=50 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.051039
+STAT rank=51 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000037 t_espera=0.079992
+STAT rank=52 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.044187
+STAT rank=53 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.050115
+STAT rank=54 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.040043
+STAT rank=55 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.094844
+STAT rank=56 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.062533
+STAT rank=57 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.087604
+STAT rank=58 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.017090
+STAT rank=59 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.050969
+STAT rank=60 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.048443
+STAT rank=61 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.087166
+STAT rank=62 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.028229
+STAT rank=63 nivel=6 tam=3125 folha=1 t_bubble=0.055922 t_merge=0.000000 t_espera=0.000000
+STAT rank=64 nivel=6 tam=3125 folha=1 t_bubble=0.062857 t_merge=0.000000 t_espera=0.000000
+STAT rank=65 nivel=6 tam=3125 folha=1 t_bubble=0.034883 t_merge=0.000000 t_espera=0.000000
+STAT rank=66 nivel=6 tam=3125 folha=1 t_bubble=0.055684 t_merge=0.000000 t_espera=0.000000
+STAT rank=67 nivel=6 tam=3125 folha=1 t_bubble=0.052632 t_merge=0.000000 t_espera=0.000000
+STAT rank=68 nivel=6 tam=3125 folha=1 t_bubble=0.028446 t_merge=0.000000 t_espera=0.000000
+STAT rank=69 nivel=6 tam=3125 folha=1 t_bubble=0.056496 t_merge=0.000000 t_espera=0.000000
+STAT rank=70 nivel=6 tam=3125 folha=1 t_bubble=0.016495 t_merge=0.000000 t_espera=0.000000
+STAT rank=71 nivel=6 tam=3125 folha=1 t_bubble=0.037360 t_merge=0.000000 t_espera=0.000000
+STAT rank=72 nivel=6 tam=3125 folha=1 t_bubble=0.064574 t_merge=0.000000 t_espera=0.000000
+STAT rank=73 nivel=6 tam=3125 folha=1 t_bubble=0.015593 t_merge=0.000000 t_espera=0.000000
+STAT rank=74 nivel=6 tam=3125 folha=1 t_bubble=0.018241 t_merge=0.000000 t_espera=0.000000
+STAT rank=75 nivel=6 tam=3125 folha=1 t_bubble=0.090938 t_merge=0.000000 t_espera=0.000000
+STAT rank=76 nivel=6 tam=3125 folha=1 t_bubble=0.025399 t_merge=0.000000 t_espera=0.000000
+STAT rank=77 nivel=6 tam=3125 folha=1 t_bubble=0.025536 t_merge=0.000000 t_espera=0.000000
+STAT rank=78 nivel=6 tam=3125 folha=1 t_bubble=0.038560 t_merge=0.000000 t_espera=0.000000
+STAT rank=79 nivel=6 tam=3125 folha=1 t_bubble=0.011866 t_merge=0.000000 t_espera=0.000000
+STAT rank=80 nivel=6 tam=3125 folha=1 t_bubble=0.097387 t_merge=0.000000 t_espera=0.000000
+STAT rank=81 nivel=6 tam=3125 folha=1 t_bubble=0.031265 t_merge=0.000000 t_espera=0.000000
+STAT rank=82 nivel=6 tam=3125 folha=1 t_bubble=0.011864 t_merge=0.000000 t_espera=0.000000
+STAT rank=83 nivel=6 tam=3125 folha=1 t_bubble=0.026288 t_merge=0.000000 t_espera=0.000000
+STAT rank=84 nivel=6 tam=3125 folha=1 t_bubble=0.035817 t_merge=0.000000 t_espera=0.000000
+STAT rank=85 nivel=6 tam=3125 folha=1 t_bubble=0.044828 t_merge=0.000000 t_espera=0.000000
+STAT rank=86 nivel=6 tam=3125 folha=1 t_bubble=0.026611 t_merge=0.000000 t_espera=0.000000
+STAT rank=87 nivel=6 tam=3125 folha=1 t_bubble=0.036292 t_merge=0.000000 t_espera=0.000000
+STAT rank=88 nivel=6 tam=3125 folha=1 t_bubble=0.037233 t_merge=0.000000 t_espera=0.000000
+STAT rank=89 nivel=6 tam=3125 folha=1 t_bubble=0.036180 t_merge=0.000000 t_espera=0.000000
+STAT rank=90 nivel=6 tam=3125 folha=1 t_bubble=0.023835 t_merge=0.000000 t_espera=0.000000
+STAT rank=91 nivel=6 tam=3125 folha=1 t_bubble=0.064073 t_merge=0.000000 t_espera=0.000000
+STAT rank=92 nivel=6 tam=3125 folha=1 t_bubble=0.046794 t_merge=0.000000 t_espera=0.000000
+STAT rank=93 nivel=6 tam=3125 folha=1 t_bubble=0.030157 t_merge=0.000000 t_espera=0.000000
+STAT rank=94 nivel=6 tam=3125 folha=1 t_bubble=0.046993 t_merge=0.000000 t_espera=0.000000
+STAT rank=95 nivel=6 tam=3125 folha=1 t_bubble=0.082442 t_merge=0.000000 t_espera=0.000000
+STAT rank=96 nivel=6 tam=3125 folha=1 t_bubble=0.057992 t_merge=0.000000 t_espera=0.000000
+STAT rank=97 nivel=6 tam=3125 folha=1 t_bubble=0.071286 t_merge=0.000000 t_espera=0.000000
+STAT rank=98 nivel=6 tam=3125 folha=1 t_bubble=0.038339 t_merge=0.000000 t_espera=0.000000
+STAT rank=99 nivel=6 tam=3125 folha=1 t_bubble=0.039272 t_merge=0.000000 t_espera=0.000000
+STAT rank=100 nivel=6 tam=3125 folha=1 t_bubble=0.024571 t_merge=0.000000 t_espera=0.000000
+STAT rank=101 nivel=6 tam=3125 folha=1 t_bubble=0.038373 t_merge=0.000000 t_espera=0.000000
+STAT rank=102 nivel=6 tam=3125 folha=1 t_bubble=0.013198 t_merge=0.000000 t_espera=0.000000
+STAT rank=103 nivel=6 tam=3125 folha=1 t_bubble=0.039152 t_merge=0.000000 t_espera=0.000000
+STAT rank=104 nivel=6 tam=3125 folha=1 t_bubble=0.030048 t_merge=0.000000 t_espera=0.000000
+STAT rank=105 nivel=6 tam=3125 folha=1 t_bubble=0.029425 t_merge=0.000000 t_espera=0.000000
+STAT rank=106 nivel=6 tam=3125 folha=1 t_bubble=0.035046 t_merge=0.000000 t_espera=0.000000
+STAT rank=107 nivel=6 tam=3125 folha=1 t_bubble=0.050688 t_merge=0.000000 t_espera=0.000000
+STAT rank=108 nivel=6 tam=3125 folha=1 t_bubble=0.024890 t_merge=0.000000 t_espera=0.000000
+STAT rank=109 nivel=6 tam=3125 folha=1 t_bubble=0.038232 t_merge=0.000000 t_espera=0.000000
+STAT rank=110 nivel=6 tam=3125 folha=1 t_bubble=0.022764 t_merge=0.000000 t_espera=0.000000
+STAT rank=111 nivel=6 tam=3125 folha=1 t_bubble=0.036063 t_merge=0.000000 t_espera=0.000000
+STAT rank=112 nivel=6 tam=3125 folha=1 t_bubble=0.088068 t_merge=0.000000 t_espera=0.000000
+STAT rank=113 nivel=6 tam=3125 folha=1 t_bubble=0.027285 t_merge=0.000000 t_espera=0.000000
+STAT rank=114 nivel=6 tam=3125 folha=1 t_bubble=0.047228 t_merge=0.000000 t_espera=0.000000
+STAT rank=115 nivel=6 tam=3125 folha=1 t_bubble=0.031508 t_merge=0.000000 t_espera=0.000000
+STAT rank=116 nivel=6 tam=3125 folha=1 t_bubble=0.047318 t_merge=0.000000 t_espera=0.000000
+STAT rank=117 nivel=6 tam=3125 folha=1 t_bubble=0.037479 t_merge=0.000000 t_espera=0.000000
+STAT rank=118 nivel=6 tam=3125 folha=1 t_bubble=0.013732 t_merge=0.000000 t_espera=0.000000
+STAT rank=119 nivel=6 tam=3125 folha=1 t_bubble=0.036395 t_merge=0.000000 t_espera=0.000000
+STAT rank=120 nivel=6 tam=3125 folha=1 t_bubble=0.029787 t_merge=0.000000 t_espera=0.000000
+STAT rank=121 nivel=6 tam=3125 folha=1 t_bubble=0.023913 t_merge=0.000000 t_espera=0.000000
+STAT rank=122 nivel=6 tam=3125 folha=1 t_bubble=0.048013 t_merge=0.000000 t_espera=0.000000
+STAT rank=123 nivel=6 tam=3125 folha=1 t_bubble=0.036458 t_merge=0.000000 t_espera=0.000000
+STAT rank=124 nivel=6 tam=3125 folha=1 t_bubble=0.045373 t_merge=0.000000 t_espera=0.000000
+STAT rank=125 nivel=6 tam=3125 folha=1 t_bubble=0.042461 t_merge=0.000000 t_espera=0.000000
+STAT rank=126 nivel=6 tam=3125 folha=1 t_bubble=0.015946 t_merge=0.000000 t_espera=0.000000
+REP 3 yield=0
+RESULT versao=original n=200000 delta=3125 P=127 tempo=0.265137 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=0 t_bubble=0.000000 t_merge=0.000945 t_espera=0.232898
+STAT rank=1 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000546 t_espera=0.199857
+STAT rank=2 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000431 t_espera=0.231857
+STAT rank=3 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000268 t_espera=0.136663
+STAT rank=4 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000221 t_espera=0.152233
+STAT rank=5 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000223 t_espera=0.160118
+STAT rank=6 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000351 t_espera=0.172435
+STAT rank=7 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000154 t_espera=0.164028
+STAT rank=8 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000318 t_espera=0.116717
+STAT rank=9 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000228 t_espera=0.120110
+STAT rank=10 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000134 t_espera=0.104087
+STAT rank=11 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000128 t_espera=0.143928
+STAT rank=12 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000121 t_espera=0.092038
+STAT rank=13 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000169 t_espera=0.128139
+STAT rank=14 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000135 t_espera=0.096055
+STAT rank=15 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.112037
+STAT rank=16 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.120006
+STAT rank=17 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.076574
+STAT rank=18 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000068 t_espera=0.072118
+STAT rank=19 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.139810
+STAT rank=20 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.063947
+STAT rank=21 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.052094
+STAT rank=22 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000066 t_espera=0.068058
+STAT rank=23 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000122 t_espera=0.072033
+STAT rank=24 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000121 t_espera=0.059527
+STAT rank=25 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000066 t_espera=0.075944
+STAT rank=26 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000069 t_espera=0.048010
+STAT rank=27 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.079799
+STAT rank=28 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000068 t_espera=0.088020
+STAT rank=29 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.096015
+STAT rank=30 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000077 t_espera=0.075977
+STAT rank=31 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.042890
+STAT rank=32 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.063958
+STAT rank=33 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.075943
+STAT rank=34 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.075939
+STAT rank=35 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.072020
+STAT rank=36 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000036 t_espera=0.046926
+STAT rank=37 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.070888
+STAT rank=38 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.042397
+STAT rank=39 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.044047
+STAT rank=40 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.072017
+STAT rank=41 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.054897
+STAT rank=42 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.027810
+STAT rank=43 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000034 t_espera=0.062902
+STAT rank=44 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.046350
+STAT rank=45 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.036339
+STAT rank=46 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.033115
+STAT rank=47 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.055355
+STAT rank=48 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.035953
+STAT rank=49 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.047062
+STAT rank=50 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000062 t_espera=0.015663
+STAT rank=51 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.052043
+STAT rank=52 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.026359
+STAT rank=53 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000036 t_espera=0.036967
+STAT rank=54 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.049974
+STAT rank=55 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.077328
+STAT rank=56 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.043175
+STAT rank=57 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.038285
+STAT rank=58 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.042915
+STAT rank=59 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.091816
+STAT rank=60 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.083349
+STAT rank=61 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.070858
+STAT rank=62 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.059382
+STAT rank=63 nivel=6 tam=3125 folha=1 t_bubble=0.011862 t_merge=0.000000 t_espera=0.000000
+STAT rank=64 nivel=6 tam=3125 folha=1 t_bubble=0.037391 t_merge=0.000000 t_espera=0.000000
+STAT rank=65 nivel=6 tam=3125 folha=1 t_bubble=0.043762 t_merge=0.000000 t_espera=0.000000
+STAT rank=66 nivel=6 tam=3125 folha=1 t_bubble=0.042902 t_merge=0.000000 t_espera=0.000000
+STAT rank=67 nivel=6 tam=3125 folha=1 t_bubble=0.035890 t_merge=0.000000 t_espera=0.000000
+STAT rank=68 nivel=6 tam=3125 folha=1 t_bubble=0.043549 t_merge=0.000000 t_espera=0.000000
+STAT rank=69 nivel=6 tam=3125 folha=1 t_bubble=0.035641 t_merge=0.000000 t_espera=0.000000
+STAT rank=70 nivel=6 tam=3125 folha=1 t_bubble=0.045373 t_merge=0.000000 t_espera=0.000000
+STAT rank=71 nivel=6 tam=3125 folha=1 t_bubble=0.054734 t_merge=0.000000 t_espera=0.000000
+STAT rank=72 nivel=6 tam=3125 folha=1 t_bubble=0.063971 t_merge=0.000000 t_espera=0.000000
+STAT rank=73 nivel=6 tam=3125 folha=1 t_bubble=0.052373 t_merge=0.000000 t_espera=0.000000
+STAT rank=74 nivel=6 tam=3125 folha=1 t_bubble=0.042889 t_merge=0.000000 t_espera=0.000000
+STAT rank=75 nivel=6 tam=3125 folha=1 t_bubble=0.038826 t_merge=0.000000 t_espera=0.000000
+STAT rank=76 nivel=6 tam=3125 folha=1 t_bubble=0.053462 t_merge=0.000000 t_espera=0.000000
+STAT rank=77 nivel=6 tam=3125 folha=1 t_bubble=0.034480 t_merge=0.000000 t_espera=0.000000
+STAT rank=78 nivel=6 tam=3125 folha=1 t_bubble=0.035655 t_merge=0.000000 t_espera=0.000000
+STAT rank=79 nivel=6 tam=3125 folha=1 t_bubble=0.054191 t_merge=0.000000 t_espera=0.000000
+STAT rank=80 nivel=6 tam=3125 folha=1 t_bubble=0.035524 t_merge=0.000000 t_espera=0.000000
+STAT rank=81 nivel=6 tam=3125 folha=1 t_bubble=0.043516 t_merge=0.000000 t_espera=0.000000
+STAT rank=82 nivel=6 tam=3125 folha=1 t_bubble=0.061796 t_merge=0.000000 t_espera=0.000000
+STAT rank=83 nivel=6 tam=3125 folha=1 t_bubble=0.046602 t_merge=0.000000 t_espera=0.000000
+STAT rank=84 nivel=6 tam=3125 folha=1 t_bubble=0.049990 t_merge=0.000000 t_espera=0.000000
+STAT rank=85 nivel=6 tam=3125 folha=1 t_bubble=0.046422 t_merge=0.000000 t_espera=0.000000
+STAT rank=86 nivel=6 tam=3125 folha=1 t_bubble=0.020861 t_merge=0.000000 t_espera=0.000000
+STAT rank=87 nivel=6 tam=3125 folha=1 t_bubble=0.030303 t_merge=0.000000 t_espera=0.000000
+STAT rank=88 nivel=6 tam=3125 folha=1 t_bubble=0.054956 t_merge=0.000000 t_espera=0.000000
+STAT rank=89 nivel=6 tam=3125 folha=1 t_bubble=0.036036 t_merge=0.000000 t_espera=0.000000
+STAT rank=90 nivel=6 tam=3125 folha=1 t_bubble=0.043759 t_merge=0.000000 t_espera=0.000000
+STAT rank=91 nivel=6 tam=3125 folha=1 t_bubble=0.036042 t_merge=0.000000 t_espera=0.000000
+STAT rank=92 nivel=6 tam=3125 folha=1 t_bubble=0.023101 t_merge=0.000000 t_espera=0.000000
+STAT rank=93 nivel=6 tam=3125 folha=1 t_bubble=0.017777 t_merge=0.000000 t_espera=0.000000
+STAT rank=94 nivel=6 tam=3125 folha=1 t_bubble=0.032388 t_merge=0.000000 t_espera=0.000000
+STAT rank=95 nivel=6 tam=3125 folha=1 t_bubble=0.025647 t_merge=0.000000 t_espera=0.000000
+STAT rank=96 nivel=6 tam=3125 folha=1 t_bubble=0.018874 t_merge=0.000000 t_espera=0.000000
+STAT rank=97 nivel=6 tam=3125 folha=1 t_bubble=0.032014 t_merge=0.000000 t_espera=0.000000
+STAT rank=98 nivel=6 tam=3125 folha=1 t_bubble=0.027154 t_merge=0.000000 t_espera=0.000000
+STAT rank=99 nivel=6 tam=3125 folha=1 t_bubble=0.033400 t_merge=0.000000 t_espera=0.000000
+STAT rank=100 nivel=6 tam=3125 folha=1 t_bubble=0.025452 t_merge=0.000000 t_espera=0.000000
+STAT rank=101 nivel=6 tam=3125 folha=1 t_bubble=0.014167 t_merge=0.000000 t_espera=0.000000
+STAT rank=102 nivel=6 tam=3125 folha=1 t_bubble=0.011977 t_merge=0.000000 t_espera=0.000000
+STAT rank=103 nivel=6 tam=3125 folha=1 t_bubble=0.033612 t_merge=0.000000 t_espera=0.000000
+STAT rank=104 nivel=6 tam=3125 folha=1 t_bubble=0.031878 t_merge=0.000000 t_espera=0.000000
+STAT rank=105 nivel=6 tam=3125 folha=1 t_bubble=0.030563 t_merge=0.000000 t_espera=0.000000
+STAT rank=106 nivel=6 tam=3125 folha=1 t_bubble=0.010367 t_merge=0.000000 t_espera=0.000000
+STAT rank=107 nivel=6 tam=3125 folha=1 t_bubble=0.017884 t_merge=0.000000 t_espera=0.000000
+STAT rank=108 nivel=6 tam=3125 folha=1 t_bubble=0.035791 t_merge=0.000000 t_espera=0.000000
+STAT rank=109 nivel=6 tam=3125 folha=1 t_bubble=0.049449 t_merge=0.000000 t_espera=0.000000
+STAT rank=110 nivel=6 tam=3125 folha=1 t_bubble=0.015382 t_merge=0.000000 t_espera=0.000000
+STAT rank=111 nivel=6 tam=3125 folha=1 t_bubble=0.033107 t_merge=0.000000 t_espera=0.000000
+STAT rank=112 nivel=6 tam=3125 folha=1 t_bubble=0.076699 t_merge=0.000000 t_espera=0.000000
+STAT rank=113 nivel=6 tam=3125 folha=1 t_bubble=0.027003 t_merge=0.000000 t_espera=0.000000
+STAT rank=114 nivel=6 tam=3125 folha=1 t_bubble=0.016270 t_merge=0.000000 t_espera=0.000000
+STAT rank=115 nivel=6 tam=3125 folha=1 t_bubble=0.012112 t_merge=0.000000 t_espera=0.000000
+STAT rank=116 nivel=6 tam=3125 folha=1 t_bubble=0.028930 t_merge=0.000000 t_espera=0.000000
+STAT rank=117 nivel=6 tam=3125 folha=1 t_bubble=0.011822 t_merge=0.000000 t_espera=0.000000
+STAT rank=118 nivel=6 tam=3125 folha=1 t_bubble=0.040262 t_merge=0.000000 t_espera=0.000000
+STAT rank=119 nivel=6 tam=3125 folha=1 t_bubble=0.071364 t_merge=0.000000 t_espera=0.000000
+STAT rank=120 nivel=6 tam=3125 folha=1 t_bubble=0.053756 t_merge=0.000000 t_espera=0.000000
+STAT rank=121 nivel=6 tam=3125 folha=1 t_bubble=0.052449 t_merge=0.000000 t_espera=0.000000
+STAT rank=122 nivel=6 tam=3125 folha=1 t_bubble=0.024327 t_merge=0.000000 t_espera=0.000000
+STAT rank=123 nivel=6 tam=3125 folha=1 t_bubble=0.021423 t_merge=0.000000 t_espera=0.000000
+STAT rank=124 nivel=6 tam=3125 folha=1 t_bubble=0.046783 t_merge=0.000000 t_espera=0.000000
+STAT rank=125 nivel=6 tam=3125 folha=1 t_bubble=0.038894 t_merge=0.000000 t_espera=0.000000
+STAT rank=126 nivel=6 tam=3125 folha=1 t_bubble=0.038656 t_merge=0.000000 t_espera=0.000000
+REP 4 yield=0
+RESULT versao=original n=200000 delta=3125 P=127 tempo=0.270301 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=0 t_bubble=0.000000 t_merge=0.000967 t_espera=0.236889
+STAT rank=1 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000495 t_espera=0.220186
+STAT rank=2 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000541 t_espera=0.176685
+STAT rank=3 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000262 t_espera=0.184243
+STAT rank=4 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.027340 t_espera=0.192417
+STAT rank=5 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000270 t_espera=0.148292
+STAT rank=6 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000277 t_espera=0.132255
+STAT rank=7 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000104 t_espera=0.163962
+STAT rank=8 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000171 t_espera=0.121272
+STAT rank=9 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000319 t_espera=0.179469
+STAT rank=10 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000112 t_espera=0.168404
+STAT rank=11 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000151 t_espera=0.120269
+STAT rank=12 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000167 t_espera=0.096061
+STAT rank=13 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000478 t_espera=0.084818
+STAT rank=14 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000137 t_espera=0.096063
+STAT rank=15 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000056 t_espera=0.132012
+STAT rank=16 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.081650
+STAT rank=17 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000068 t_espera=0.115883
+STAT rank=18 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.085150
+STAT rank=19 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.088047
+STAT rank=20 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.111636
+STAT rank=21 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000070 t_espera=0.072125
+STAT rank=22 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.084053
+STAT rank=23 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000072 t_espera=0.115992
+STAT rank=24 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000060 t_espera=0.041830
+STAT rank=25 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.072039
+STAT rank=26 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.077923
+STAT rank=27 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.092107
+STAT rank=28 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000059 t_espera=0.068539
+STAT rank=29 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000409 t_espera=0.049174
+STAT rank=30 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.081342
+STAT rank=31 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000034 t_espera=0.083449
+STAT rank=32 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.084310
+STAT rank=33 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.058828
+STAT rank=34 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.045612
+STAT rank=35 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.083439
+STAT rank=36 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.052664
+STAT rank=37 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.107099
+STAT rank=38 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000026 t_espera=0.039811
+STAT rank=39 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.054527
+STAT rank=40 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.043892
+STAT rank=41 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.090060
+STAT rank=42 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.058827
+STAT rank=43 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000038 t_espera=0.074038
+STAT rank=44 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.054224
+STAT rank=45 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.116058
+STAT rank=46 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.058415
+STAT rank=47 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.065097
+STAT rank=48 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.075449
+STAT rank=49 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.044002
+STAT rank=50 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000047 t_espera=0.042080
+STAT rank=51 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.044067
+STAT rank=52 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.076275
+STAT rank=53 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.033555
+STAT rank=54 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.075954
+STAT rank=55 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000039 t_espera=0.082934
+STAT rank=56 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.042881
+STAT rank=57 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.057219
+STAT rank=58 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.039506
+STAT rank=59 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.036002
+STAT rank=60 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000025 t_espera=0.039981
+STAT rank=61 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.053264
+STAT rank=62 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.047394
+STAT rank=63 nivel=6 tam=3125 folha=1 t_bubble=0.035729 t_merge=0.000000 t_espera=0.000000
+STAT rank=64 nivel=6 tam=3125 folha=1 t_bubble=0.048006 t_merge=0.000000 t_espera=0.000000
+STAT rank=65 nivel=6 tam=3125 folha=1 t_bubble=0.051641 t_merge=0.000000 t_espera=0.000000
+STAT rank=66 nivel=6 tam=3125 folha=1 t_bubble=0.075004 t_merge=0.000000 t_espera=0.000000
+STAT rank=67 nivel=6 tam=3125 folha=1 t_bubble=0.011625 t_merge=0.000000 t_espera=0.000000
+STAT rank=68 nivel=6 tam=3125 folha=1 t_bubble=0.051563 t_merge=0.000000 t_espera=0.000000
+STAT rank=69 nivel=6 tam=3125 folha=1 t_bubble=0.052979 t_merge=0.000000 t_espera=0.000000
+STAT rank=70 nivel=6 tam=3125 folha=1 t_bubble=0.027485 t_merge=0.000000 t_espera=0.000000
+STAT rank=71 nivel=6 tam=3125 folha=1 t_bubble=0.080089 t_merge=0.000000 t_espera=0.000000
+STAT rank=72 nivel=6 tam=3125 folha=1 t_bubble=0.030937 t_merge=0.000000 t_espera=0.000000
+STAT rank=73 nivel=6 tam=3125 folha=1 t_bubble=0.035490 t_merge=0.000000 t_espera=0.000000
+STAT rank=74 nivel=6 tam=3125 folha=1 t_bubble=0.052199 t_merge=0.000000 t_espera=0.000000
+STAT rank=75 nivel=6 tam=3125 folha=1 t_bubble=0.086935 t_merge=0.000000 t_espera=0.000000
+STAT rank=76 nivel=6 tam=3125 folha=1 t_bubble=0.027502 t_merge=0.000000 t_espera=0.000000
+STAT rank=77 nivel=6 tam=3125 folha=1 t_bubble=0.056497 t_merge=0.000000 t_espera=0.000000
+STAT rank=78 nivel=6 tam=3125 folha=1 t_bubble=0.030128 t_merge=0.000000 t_espera=0.000000
+STAT rank=79 nivel=6 tam=3125 folha=1 t_bubble=0.069991 t_merge=0.000000 t_espera=0.000000
+STAT rank=80 nivel=6 tam=3125 folha=1 t_bubble=0.037404 t_merge=0.000000 t_espera=0.000000
+STAT rank=81 nivel=6 tam=3125 folha=1 t_bubble=0.043975 t_merge=0.000000 t_espera=0.000000
+STAT rank=82 nivel=6 tam=3125 folha=1 t_bubble=0.035881 t_merge=0.000000 t_espera=0.000000
+STAT rank=83 nivel=6 tam=3125 folha=1 t_bubble=0.094690 t_merge=0.000000 t_espera=0.000000
+STAT rank=84 nivel=6 tam=3125 folha=1 t_bubble=0.011889 t_merge=0.000000 t_espera=0.000000
+STAT rank=85 nivel=6 tam=3125 folha=1 t_bubble=0.033331 t_merge=0.000000 t_espera=0.000000
+STAT rank=86 nivel=6 tam=3125 folha=1 t_bubble=0.041170 t_merge=0.000000 t_espera=0.000000
+STAT rank=87 nivel=6 tam=3125 folha=1 t_bubble=0.038713 t_merge=0.000000 t_espera=0.000000
+STAT rank=88 nivel=6 tam=3125 folha=1 t_bubble=0.073155 t_merge=0.000000 t_espera=0.000000
+STAT rank=89 nivel=6 tam=3125 folha=1 t_bubble=0.051188 t_merge=0.000000 t_espera=0.000000
+STAT rank=90 nivel=6 tam=3125 folha=1 t_bubble=0.016205 t_merge=0.000000 t_espera=0.000000
+STAT rank=91 nivel=6 tam=3125 folha=1 t_bubble=0.065948 t_merge=0.000000 t_espera=0.000000
+STAT rank=92 nivel=6 tam=3125 folha=1 t_bubble=0.060671 t_merge=0.000000 t_espera=0.000000
+STAT rank=93 nivel=6 tam=3125 folha=1 t_bubble=0.034504 t_merge=0.000000 t_espera=0.000000
+STAT rank=94 nivel=6 tam=3125 folha=1 t_bubble=0.037097 t_merge=0.000000 t_espera=0.000000
+STAT rank=95 nivel=6 tam=3125 folha=1 t_bubble=0.036819 t_merge=0.000000 t_espera=0.000000
+STAT rank=96 nivel=6 tam=3125 folha=1 t_bubble=0.064441 t_merge=0.000000 t_espera=0.000000
+STAT rank=97 nivel=6 tam=3125 folha=1 t_bubble=0.050790 t_merge=0.000000 t_espera=0.000000
+STAT rank=98 nivel=6 tam=3125 folha=1 t_bubble=0.030940 t_merge=0.000000 t_espera=0.000000
+STAT rank=99 nivel=6 tam=3125 folha=1 t_bubble=0.043899 t_merge=0.000000 t_espera=0.000000
+STAT rank=100 nivel=6 tam=3125 folha=1 t_bubble=0.026049 t_merge=0.000000 t_espera=0.000000
+STAT rank=101 nivel=6 tam=3125 folha=1 t_bubble=0.027660 t_merge=0.000000 t_espera=0.000000
+STAT rank=102 nivel=6 tam=3125 folha=1 t_bubble=0.041249 t_merge=0.000000 t_espera=0.000000
+STAT rank=103 nivel=6 tam=3125 folha=1 t_bubble=0.035032 t_merge=0.000000 t_espera=0.000000
+STAT rank=104 nivel=6 tam=3125 folha=1 t_bubble=0.010277 t_merge=0.000000 t_espera=0.000000
+STAT rank=105 nivel=6 tam=3125 folha=1 t_bubble=0.013086 t_merge=0.000000 t_espera=0.000000
+STAT rank=106 nivel=6 tam=3125 folha=1 t_bubble=0.075464 t_merge=0.000000 t_espera=0.000000
+STAT rank=107 nivel=6 tam=3125 folha=1 t_bubble=0.037104 t_merge=0.000000 t_espera=0.000000
+STAT rank=108 nivel=6 tam=3125 folha=1 t_bubble=0.011759 t_merge=0.000000 t_espera=0.000000
+STAT rank=109 nivel=6 tam=3125 folha=1 t_bubble=0.036763 t_merge=0.000000 t_espera=0.000000
+STAT rank=110 nivel=6 tam=3125 folha=1 t_bubble=0.075473 t_merge=0.000000 t_espera=0.000000
+STAT rank=111 nivel=6 tam=3125 folha=1 t_bubble=0.073569 t_merge=0.000000 t_espera=0.000000
+STAT rank=112 nivel=6 tam=3125 folha=1 t_bubble=0.063341 t_merge=0.000000 t_espera=0.000000
+STAT rank=113 nivel=6 tam=3125 folha=1 t_bubble=0.051074 t_merge=0.000000 t_espera=0.000000
+STAT rank=114 nivel=6 tam=3125 folha=1 t_bubble=0.040631 t_merge=0.000000 t_espera=0.000000
+STAT rank=115 nivel=6 tam=3125 folha=1 t_bubble=0.060321 t_merge=0.000000 t_espera=0.000000
+STAT rank=116 nivel=6 tam=3125 folha=1 t_bubble=0.056520 t_merge=0.000000 t_espera=0.000000
+STAT rank=117 nivel=6 tam=3125 folha=1 t_bubble=0.011794 t_merge=0.000000 t_espera=0.000000
+STAT rank=118 nivel=6 tam=3125 folha=1 t_bubble=0.014318 t_merge=0.000000 t_espera=0.000000
+STAT rank=119 nivel=6 tam=3125 folha=1 t_bubble=0.038309 t_merge=0.000000 t_espera=0.000000
+STAT rank=120 nivel=6 tam=3125 folha=1 t_bubble=0.025146 t_merge=0.000000 t_espera=0.000000
+STAT rank=121 nivel=6 tam=3125 folha=1 t_bubble=0.018586 t_merge=0.000000 t_espera=0.000000
+STAT rank=122 nivel=6 tam=3125 folha=1 t_bubble=0.039522 t_merge=0.000000 t_espera=0.000000
+STAT rank=123 nivel=6 tam=3125 folha=1 t_bubble=0.027043 t_merge=0.000000 t_espera=0.000000
+STAT rank=124 nivel=6 tam=3125 folha=1 t_bubble=0.018348 t_merge=0.000000 t_espera=0.000000
+STAT rank=125 nivel=6 tam=3125 folha=1 t_bubble=0.043868 t_merge=0.000000 t_espera=0.000000
+STAT rank=126 nivel=6 tam=3125 folha=1 t_bubble=0.013244 t_merge=0.000000 t_espera=0.000000
+REP 5 yield=0
+RESULT versao=original n=200000 delta=3125 P=127 tempo=0.232099 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=0 t_bubble=0.000000 t_merge=0.000895 t_espera=0.188262
+STAT rank=1 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000448 t_espera=0.217878
+STAT rank=2 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.001318 t_espera=0.192503
+STAT rank=3 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000270 t_espera=0.169842
+STAT rank=4 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000273 t_espera=0.153261
+STAT rank=5 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000263 t_espera=0.128281
+STAT rank=6 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000457 t_espera=0.096347
+STAT rank=7 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000134 t_espera=0.156066
+STAT rank=8 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000153 t_espera=0.113607
+STAT rank=9 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000147 t_espera=0.124041
+STAT rank=10 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000162 t_espera=0.145071
+STAT rank=11 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000108 t_espera=0.135981
+STAT rank=12 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000319 t_espera=0.122057
+STAT rank=13 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000644 t_espera=0.110321
+STAT rank=14 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000131 t_espera=0.095963
+STAT rank=15 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000060 t_espera=0.120396
+STAT rank=16 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000072 t_espera=0.112025
+STAT rank=17 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000060 t_espera=0.091985
+STAT rank=18 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.080119
+STAT rank=19 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.099617
+STAT rank=20 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.048014
+STAT rank=21 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.148939
+STAT rank=22 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.096106
+STAT rank=23 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000072 t_espera=0.072111
+STAT rank=24 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000072 t_espera=0.096072
+STAT rank=25 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.072027
+STAT rank=26 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000114 t_espera=0.092006
+STAT rank=27 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000059 t_espera=0.095980
+STAT rank=28 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000066 t_espera=0.073971
+STAT rank=29 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.077020
+STAT rank=30 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.036031
+STAT rank=31 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.076894
+STAT rank=32 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.061252
+STAT rank=33 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000036 t_espera=0.082730
+STAT rank=34 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.110931
+STAT rank=35 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.090925
+STAT rank=36 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000210 t_espera=0.012182
+STAT rank=37 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000034 t_espera=0.052105
+STAT rank=38 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.048066
+STAT rank=39 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.052425
+STAT rank=40 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.046365
+STAT rank=41 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.038777
+STAT rank=42 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000037 t_espera=0.035114
+STAT rank=43 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.061390
+STAT rank=44 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000403 t_espera=0.091690
+STAT rank=45 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.078353
+STAT rank=46 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.091298
+STAT rank=47 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.042907
+STAT rank=48 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.066925
+STAT rank=49 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000051 t_espera=0.046880
+STAT rank=50 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.060004
+STAT rank=51 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000036 t_espera=0.075638
+STAT rank=52 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000238 t_espera=0.049692
+STAT rank=53 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.039392
+STAT rank=54 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.028057
+STAT rank=55 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000036 t_espera=0.071939
+STAT rank=56 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.031357
+STAT rank=57 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.044055
+STAT rank=58 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.037947
+STAT rank=59 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000040 t_espera=0.052898
+STAT rank=60 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.025845
+STAT rank=61 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.056499
+STAT rank=62 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.037277
+STAT rank=63 nivel=6 tam=3125 folha=1 t_bubble=0.051759 t_merge=0.000000 t_espera=0.000000
+STAT rank=64 nivel=6 tam=3125 folha=1 t_bubble=0.075929 t_merge=0.000000 t_espera=0.000000
+STAT rank=65 nivel=6 tam=3125 folha=1 t_bubble=0.073647 t_merge=0.000000 t_espera=0.000000
+STAT rank=66 nivel=6 tam=3125 folha=1 t_bubble=0.044048 t_merge=0.000000 t_espera=0.000000
+STAT rank=67 nivel=6 tam=3125 folha=1 t_bubble=0.011578 t_merge=0.000000 t_espera=0.000000
+STAT rank=68 nivel=6 tam=3125 folha=1 t_bubble=0.059833 t_merge=0.000000 t_espera=0.000000
+STAT rank=69 nivel=6 tam=3125 folha=1 t_bubble=0.049607 t_merge=0.000000 t_espera=0.000000
+STAT rank=70 nivel=6 tam=3125 folha=1 t_bubble=0.043905 t_merge=0.000000 t_espera=0.000000
+STAT rank=71 nivel=6 tam=3125 folha=1 t_bubble=0.070051 t_merge=0.000000 t_espera=0.000000
+STAT rank=72 nivel=6 tam=3125 folha=1 t_bubble=0.041483 t_merge=0.000000 t_espera=0.000000
+STAT rank=73 nivel=6 tam=3125 folha=1 t_bubble=0.016714 t_merge=0.000000 t_espera=0.000000
+STAT rank=74 nivel=6 tam=3125 folha=1 t_bubble=0.011663 t_merge=0.000000 t_espera=0.000000
+STAT rank=75 nivel=6 tam=3125 folha=1 t_bubble=0.035758 t_merge=0.000000 t_espera=0.000000
+STAT rank=76 nivel=6 tam=3125 folha=1 t_bubble=0.037631 t_merge=0.000000 t_espera=0.000000
+STAT rank=77 nivel=6 tam=3125 folha=1 t_bubble=0.055122 t_merge=0.000000 t_espera=0.000000
+STAT rank=78 nivel=6 tam=3125 folha=1 t_bubble=0.011085 t_merge=0.000000 t_espera=0.000000
+STAT rank=79 nivel=6 tam=3125 folha=1 t_bubble=0.012348 t_merge=0.000000 t_espera=0.000000
+STAT rank=80 nivel=6 tam=3125 folha=1 t_bubble=0.044485 t_merge=0.000000 t_espera=0.000000
+STAT rank=81 nivel=6 tam=3125 folha=1 t_bubble=0.034469 t_merge=0.000000 t_espera=0.000000
+STAT rank=82 nivel=6 tam=3125 folha=1 t_bubble=0.045901 t_merge=0.000000 t_espera=0.000000
+STAT rank=83 nivel=6 tam=3125 folha=1 t_bubble=0.035733 t_merge=0.000000 t_espera=0.000000
+STAT rank=84 nivel=6 tam=3125 folha=1 t_bubble=0.038014 t_merge=0.000000 t_espera=0.000000
+STAT rank=85 nivel=6 tam=3125 folha=1 t_bubble=0.027375 t_merge=0.000000 t_espera=0.000000
+STAT rank=86 nivel=6 tam=3125 folha=1 t_bubble=0.029086 t_merge=0.000000 t_espera=0.000000
+STAT rank=87 nivel=6 tam=3125 folha=1 t_bubble=0.072253 t_merge=0.000000 t_espera=0.000000
+STAT rank=88 nivel=6 tam=3125 folha=1 t_bubble=0.024802 t_merge=0.000000 t_espera=0.000000
+STAT rank=89 nivel=6 tam=3125 folha=1 t_bubble=0.034352 t_merge=0.000000 t_espera=0.000000
+STAT rank=90 nivel=6 tam=3125 folha=1 t_bubble=0.062665 t_merge=0.000000 t_espera=0.000000
+STAT rank=91 nivel=6 tam=3125 folha=1 t_bubble=0.043750 t_merge=0.000000 t_espera=0.000000
+STAT rank=92 nivel=6 tam=3125 folha=1 t_bubble=0.049247 t_merge=0.000000 t_espera=0.000000
+STAT rank=93 nivel=6 tam=3125 folha=1 t_bubble=0.042909 t_merge=0.000000 t_espera=0.000000
+STAT rank=94 nivel=6 tam=3125 folha=1 t_bubble=0.056968 t_merge=0.000000 t_espera=0.000000
+STAT rank=95 nivel=6 tam=3125 folha=1 t_bubble=0.036007 t_merge=0.000000 t_espera=0.000000
+STAT rank=96 nivel=6 tam=3125 folha=1 t_bubble=0.034263 t_merge=0.000000 t_espera=0.000000
+STAT rank=97 nivel=6 tam=3125 folha=1 t_bubble=0.061780 t_merge=0.000000 t_espera=0.000000
+STAT rank=98 nivel=6 tam=3125 folha=1 t_bubble=0.033662 t_merge=0.000000 t_espera=0.000000
+STAT rank=99 nivel=6 tam=3125 folha=1 t_bubble=0.044398 t_merge=0.000000 t_espera=0.000000
+STAT rank=100 nivel=6 tam=3125 folha=1 t_bubble=0.035255 t_merge=0.000000 t_espera=0.000000
+STAT rank=101 nivel=6 tam=3125 folha=1 t_bubble=0.027683 t_merge=0.000000 t_espera=0.000000
+STAT rank=102 nivel=6 tam=3125 folha=1 t_bubble=0.058694 t_merge=0.000000 t_espera=0.000000
+STAT rank=103 nivel=6 tam=3125 folha=1 t_bubble=0.041904 t_merge=0.000000 t_espera=0.000000
+STAT rank=104 nivel=6 tam=3125 folha=1 t_bubble=0.075175 t_merge=0.000000 t_espera=0.000000
+STAT rank=105 nivel=6 tam=3125 folha=1 t_bubble=0.035567 t_merge=0.000000 t_espera=0.000000
+STAT rank=106 nivel=6 tam=3125 folha=1 t_bubble=0.036531 t_merge=0.000000 t_espera=0.000000
+STAT rank=107 nivel=6 tam=3125 folha=1 t_bubble=0.030254 t_merge=0.000000 t_espera=0.000000
+STAT rank=108 nivel=6 tam=3125 folha=1 t_bubble=0.030141 t_merge=0.000000 t_espera=0.000000
+STAT rank=109 nivel=6 tam=3125 folha=1 t_bubble=0.067498 t_merge=0.000000 t_espera=0.000000
+STAT rank=110 nivel=6 tam=3125 folha=1 t_bubble=0.014128 t_merge=0.000000 t_espera=0.000000
+STAT rank=111 nivel=6 tam=3125 folha=1 t_bubble=0.012045 t_merge=0.000000 t_espera=0.000000
+STAT rank=112 nivel=6 tam=3125 folha=1 t_bubble=0.041343 t_merge=0.000000 t_espera=0.000000
+STAT rank=113 nivel=6 tam=3125 folha=1 t_bubble=0.035757 t_merge=0.000000 t_espera=0.000000
+STAT rank=114 nivel=6 tam=3125 folha=1 t_bubble=0.030399 t_merge=0.000000 t_espera=0.000000
+STAT rank=115 nivel=6 tam=3125 folha=1 t_bubble=0.057383 t_merge=0.000000 t_espera=0.000000
+STAT rank=116 nivel=6 tam=3125 folha=1 t_bubble=0.013089 t_merge=0.000000 t_espera=0.000000
+STAT rank=117 nivel=6 tam=3125 folha=1 t_bubble=0.054699 t_merge=0.000000 t_espera=0.000000
+STAT rank=118 nivel=6 tam=3125 folha=1 t_bubble=0.024720 t_merge=0.000000 t_espera=0.000000
+STAT rank=119 nivel=6 tam=3125 folha=1 t_bubble=0.018919 t_merge=0.000000 t_espera=0.000000
+STAT rank=120 nivel=6 tam=3125 folha=1 t_bubble=0.031811 t_merge=0.000000 t_espera=0.000000
+STAT rank=121 nivel=6 tam=3125 folha=1 t_bubble=0.025869 t_merge=0.000000 t_espera=0.000000
+STAT rank=122 nivel=6 tam=3125 folha=1 t_bubble=0.016507 t_merge=0.000000 t_espera=0.000000
+STAT rank=123 nivel=6 tam=3125 folha=1 t_bubble=0.055967 t_merge=0.000000 t_espera=0.000000
+STAT rank=124 nivel=6 tam=3125 folha=1 t_bubble=0.033389 t_merge=0.000000 t_espera=0.000000
+STAT rank=125 nivel=6 tam=3125 folha=1 t_bubble=0.012742 t_merge=0.000000 t_espera=0.000000
+STAT rank=126 nivel=6 tam=3125 folha=1 t_bubble=0.034692 t_merge=0.000000 t_espera=0.000000
+REP 6 yield=0
+RESULT versao=original n=200000 delta=3125 P=127 tempo=0.283125 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=0 t_bubble=0.000000 t_merge=0.000998 t_espera=0.246099
+STAT rank=1 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000448 t_espera=0.245053
+STAT rank=2 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000442 t_espera=0.172101
+STAT rank=3 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.001153 t_espera=0.184176
+STAT rank=4 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000268 t_espera=0.164535
+STAT rank=5 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000685 t_espera=0.184315
+STAT rank=6 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000484 t_espera=0.109084
+STAT rank=7 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.007868 t_espera=0.136016
+STAT rank=8 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000127 t_espera=0.155916
+STAT rank=9 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000141 t_espera=0.148564
+STAT rank=10 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000342 t_espera=0.096125
+STAT rank=11 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000126 t_espera=0.151944
+STAT rank=12 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000373 t_espera=0.148179
+STAT rank=13 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000122 t_espera=0.089488
+STAT rank=14 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000554 t_espera=0.072309
+STAT rank=15 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000075 t_espera=0.079995
+STAT rank=16 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000071 t_espera=0.091932
+STAT rank=17 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000060 t_espera=0.060036
+STAT rank=18 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.120105
+STAT rank=19 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.120015
+STAT rank=20 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.086151
+STAT rank=21 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000060 t_espera=0.076116
+STAT rank=22 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000071 t_espera=0.099952
+STAT rank=23 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000069 t_espera=0.055246
+STAT rank=24 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.092388
+STAT rank=25 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000074 t_espera=0.092015
+STAT rank=26 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000068 t_espera=0.104011
+STAT rank=27 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000069 t_espera=0.115418
+STAT rank=28 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000057 t_espera=0.056896
+STAT rank=29 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.096057
+STAT rank=30 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.043709
+STAT rank=31 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.059102
+STAT rank=32 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000028 t_espera=0.050681
+STAT rank=33 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.059937
+STAT rank=34 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.051180
+STAT rank=35 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.077943
+STAT rank=36 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.048449
+STAT rank=37 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.063443
+STAT rank=38 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.075989
+STAT rank=39 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.041047
+STAT rank=40 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.086087
+STAT rank=41 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.066985
+STAT rank=42 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.052927
+STAT rank=43 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.057116
+STAT rank=44 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.060089
+STAT rank=45 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.038921
+STAT rank=46 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.049795
+STAT rank=47 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.038434
+STAT rank=48 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.038889
+STAT rank=49 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.044479
+STAT rank=50 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.059785
+STAT rank=51 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.039109
+STAT rank=52 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.060006
+STAT rank=53 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.063413
+STAT rank=54 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.062459
+STAT rank=55 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.036608
+STAT rank=56 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.043273
+STAT rank=57 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.043610
+STAT rank=58 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.018514
+STAT rank=59 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.060082
+STAT rank=60 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.046936
+STAT rank=61 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.066344
+STAT rank=62 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.032016
+STAT rank=63 nivel=6 tam=3125 folha=1 t_bubble=0.011888 t_merge=0.000000 t_espera=0.000000
+STAT rank=64 nivel=6 tam=3125 folha=1 t_bubble=0.058592 t_merge=0.000000 t_espera=0.000000
+STAT rank=65 nivel=6 tam=3125 folha=1 t_bubble=0.034647 t_merge=0.000000 t_espera=0.000000
+STAT rank=66 nivel=6 tam=3125 folha=1 t_bubble=0.037218 t_merge=0.000000 t_espera=0.000000
+STAT rank=67 nivel=6 tam=3125 folha=1 t_bubble=0.011553 t_merge=0.000000 t_espera=0.000000
+STAT rank=68 nivel=6 tam=3125 folha=1 t_bubble=0.029493 t_merge=0.000000 t_espera=0.000000
+STAT rank=69 nivel=6 tam=3125 folha=1 t_bubble=0.050289 t_merge=0.000000 t_espera=0.000000
+STAT rank=70 nivel=6 tam=3125 folha=1 t_bubble=0.038182 t_merge=0.000000 t_espera=0.000000
+STAT rank=71 nivel=6 tam=3125 folha=1 t_bubble=0.078529 t_merge=0.000000 t_espera=0.000000
+STAT rank=72 nivel=6 tam=3125 folha=1 t_bubble=0.045718 t_merge=0.000000 t_espera=0.000000
+STAT rank=73 nivel=6 tam=3125 folha=1 t_bubble=0.039391 t_merge=0.000000 t_espera=0.000000
+STAT rank=74 nivel=6 tam=3125 folha=1 t_bubble=0.041246 t_merge=0.000000 t_espera=0.000000
+STAT rank=75 nivel=6 tam=3125 folha=1 t_bubble=0.052811 t_merge=0.000000 t_espera=0.000000
+STAT rank=76 nivel=6 tam=3125 folha=1 t_bubble=0.043738 t_merge=0.000000 t_espera=0.000000
+STAT rank=77 nivel=6 tam=3125 folha=1 t_bubble=0.045164 t_merge=0.000000 t_espera=0.000000
+STAT rank=78 nivel=6 tam=3125 folha=1 t_bubble=0.065930 t_merge=0.000000 t_espera=0.000000
+STAT rank=79 nivel=6 tam=3125 folha=1 t_bubble=0.035617 t_merge=0.000000 t_espera=0.000000
+STAT rank=80 nivel=6 tam=3125 folha=1 t_bubble=0.035895 t_merge=0.000000 t_espera=0.000000
+STAT rank=81 nivel=6 tam=3125 folha=1 t_bubble=0.035638 t_merge=0.000000 t_espera=0.000000
+STAT rank=82 nivel=6 tam=3125 folha=1 t_bubble=0.052971 t_merge=0.000000 t_espera=0.000000
+STAT rank=83 nivel=6 tam=3125 folha=1 t_bubble=0.031673 t_merge=0.000000 t_espera=0.000000
+STAT rank=84 nivel=6 tam=3125 folha=1 t_bubble=0.053240 t_merge=0.000000 t_espera=0.000000
+STAT rank=85 nivel=6 tam=3125 folha=1 t_bubble=0.020302 t_merge=0.000000 t_espera=0.000000
+STAT rank=86 nivel=6 tam=3125 folha=1 t_bubble=0.019610 t_merge=0.000000 t_espera=0.000000
+STAT rank=87 nivel=6 tam=3125 folha=1 t_bubble=0.040518 t_merge=0.000000 t_espera=0.000000
+STAT rank=88 nivel=6 tam=3125 folha=1 t_bubble=0.056502 t_merge=0.000000 t_espera=0.000000
+STAT rank=89 nivel=6 tam=3125 folha=1 t_bubble=0.056893 t_merge=0.000000 t_espera=0.000000
+STAT rank=90 nivel=6 tam=3125 folha=1 t_bubble=0.044538 t_merge=0.000000 t_espera=0.000000
+STAT rank=91 nivel=6 tam=3125 folha=1 t_bubble=0.021046 t_merge=0.000000 t_espera=0.000000
+STAT rank=92 nivel=6 tam=3125 folha=1 t_bubble=0.029820 t_merge=0.000000 t_espera=0.000000
+STAT rank=93 nivel=6 tam=3125 folha=1 t_bubble=0.052410 t_merge=0.000000 t_espera=0.000000
+STAT rank=94 nivel=6 tam=3125 folha=1 t_bubble=0.032931 t_merge=0.000000 t_espera=0.000000
+STAT rank=95 nivel=6 tam=3125 folha=1 t_bubble=0.037861 t_merge=0.000000 t_espera=0.000000
+STAT rank=96 nivel=6 tam=3125 folha=1 t_bubble=0.035782 t_merge=0.000000 t_espera=0.000000
+STAT rank=97 nivel=6 tam=3125 folha=1 t_bubble=0.038325 t_merge=0.000000 t_espera=0.000000
+STAT rank=98 nivel=6 tam=3125 folha=1 t_bubble=0.038260 t_merge=0.000000 t_espera=0.000000
+STAT rank=99 nivel=6 tam=3125 folha=1 t_bubble=0.027617 t_merge=0.000000 t_espera=0.000000
+STAT rank=100 nivel=6 tam=3125 folha=1 t_bubble=0.030873 t_merge=0.000000 t_espera=0.000000
+STAT rank=101 nivel=6 tam=3125 folha=1 t_bubble=0.020284 t_merge=0.000000 t_espera=0.000000
+STAT rank=102 nivel=6 tam=3125 folha=1 t_bubble=0.051300 t_merge=0.000000 t_espera=0.000000
+STAT rank=103 nivel=6 tam=3125 folha=1 t_bubble=0.013455 t_merge=0.000000 t_espera=0.000000
+STAT rank=104 nivel=6 tam=3125 folha=1 t_bubble=0.035116 t_merge=0.000000 t_espera=0.000000
+STAT rank=105 nivel=6 tam=3125 folha=1 t_bubble=0.036493 t_merge=0.000000 t_espera=0.000000
+STAT rank=106 nivel=6 tam=3125 folha=1 t_bubble=0.029291 t_merge=0.000000 t_espera=0.000000
+STAT rank=107 nivel=6 tam=3125 folha=1 t_bubble=0.040947 t_merge=0.000000 t_espera=0.000000
+STAT rank=108 nivel=6 tam=3125 folha=1 t_bubble=0.037295 t_merge=0.000000 t_espera=0.000000
+STAT rank=109 nivel=6 tam=3125 folha=1 t_bubble=0.012641 t_merge=0.000000 t_espera=0.000000
+STAT rank=110 nivel=6 tam=3125 folha=1 t_bubble=0.061988 t_merge=0.000000 t_espera=0.000000
+STAT rank=111 nivel=6 tam=3125 folha=1 t_bubble=0.031384 t_merge=0.000000 t_espera=0.000000
+STAT rank=112 nivel=6 tam=3125 folha=1 t_bubble=0.036082 t_merge=0.000000 t_espera=0.000000
+STAT rank=113 nivel=6 tam=3125 folha=1 t_bubble=0.019699 t_merge=0.000000 t_espera=0.000000
+STAT rank=114 nivel=6 tam=3125 folha=1 t_bubble=0.042439 t_merge=0.000000 t_espera=0.000000
+STAT rank=115 nivel=6 tam=3125 folha=1 t_bubble=0.050206 t_merge=0.000000 t_espera=0.000000
+STAT rank=116 nivel=6 tam=3125 folha=1 t_bubble=0.043156 t_merge=0.000000 t_espera=0.000000
+STAT rank=117 nivel=6 tam=3125 folha=1 t_bubble=0.018401 t_merge=0.000000 t_espera=0.000000
+STAT rank=118 nivel=6 tam=3125 folha=1 t_bubble=0.016818 t_merge=0.000000 t_espera=0.000000
+STAT rank=119 nivel=6 tam=3125 folha=1 t_bubble=0.046887 t_merge=0.000000 t_espera=0.000000
+STAT rank=120 nivel=6 tam=3125 folha=1 t_bubble=0.042064 t_merge=0.000000 t_espera=0.000000
+STAT rank=121 nivel=6 tam=3125 folha=1 t_bubble=0.051507 t_merge=0.000000 t_espera=0.000000
+STAT rank=122 nivel=6 tam=3125 folha=1 t_bubble=0.028062 t_merge=0.000000 t_espera=0.000000
+STAT rank=123 nivel=6 tam=3125 folha=1 t_bubble=0.065566 t_merge=0.000000 t_espera=0.000000
+STAT rank=124 nivel=6 tam=3125 folha=1 t_bubble=0.049391 t_merge=0.000000 t_espera=0.000000
+STAT rank=125 nivel=6 tam=3125 folha=1 t_bubble=0.012681 t_merge=0.000000 t_espera=0.000000
+STAT rank=126 nivel=6 tam=3125 folha=1 t_bubble=0.014364 t_merge=0.000000 t_espera=0.000000
+REP 7 yield=0
+RESULT versao=original n=200000 delta=3125 P=127 tempo=0.261908 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=0 t_bubble=0.000000 t_merge=0.000933 t_espera=0.224943
+STAT rank=1 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000484 t_espera=0.227907
+STAT rank=2 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000533 t_espera=0.176627
+STAT rank=3 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000232 t_espera=0.176258
+STAT rank=4 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000628 t_espera=0.160359
+STAT rank=5 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000394 t_espera=0.156612
+STAT rank=6 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000267 t_espera=0.144243
+STAT rank=7 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000109 t_espera=0.128079
+STAT rank=8 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000495 t_espera=0.104460
+STAT rank=9 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000135 t_espera=0.132110
+STAT rank=10 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000132 t_espera=0.127983
+STAT rank=11 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000125 t_espera=0.112298
+STAT rank=12 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000154 t_espera=0.128299
+STAT rank=13 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000136 t_espera=0.128034
+STAT rank=14 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000138 t_espera=0.167702
+STAT rank=15 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.117156
+STAT rank=16 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000059 t_espera=0.060074
+STAT rank=17 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.028392
+STAT rank=18 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000066 t_espera=0.055210
+STAT rank=19 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.119474
+STAT rank=20 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.127923
+STAT rank=21 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.099915
+STAT rank=22 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.084820
+STAT rank=23 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000067 t_espera=0.116070
+STAT rank=24 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.048004
+STAT rank=25 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000058 t_espera=0.118080
+STAT rank=26 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000056 t_espera=0.048296
+STAT rank=27 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.092751
+STAT rank=28 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000062 t_espera=0.048012
+STAT rank=29 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000066 t_espera=0.096067
+STAT rank=30 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.096029
+STAT rank=31 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.103432
+STAT rank=32 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.071997
+STAT rank=33 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.025120
+STAT rank=34 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.042362
+STAT rank=35 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.068340
+STAT rank=36 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.050576
+STAT rank=37 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.040271
+STAT rank=38 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.072011
+STAT rank=39 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.064001
+STAT rank=40 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.075329
+STAT rank=41 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.060151
+STAT rank=42 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.041842
+STAT rank=43 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.041551
+STAT rank=44 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000034 t_espera=0.053909
+STAT rank=45 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.048063
+STAT rank=46 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.048645
+STAT rank=47 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.067994
+STAT rank=48 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.047990
+STAT rank=49 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.078822
+STAT rank=50 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000036 t_espera=0.038205
+STAT rank=51 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.040480
+STAT rank=52 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000237 t_espera=0.025794
+STAT rank=53 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.086849
+STAT rank=54 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000028 t_espera=0.040039
+STAT rank=55 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000039 t_espera=0.058930
+STAT rank=56 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.060672
+STAT rank=57 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000038 t_espera=0.066947
+STAT rank=58 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.024509
+STAT rank=59 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.056004
+STAT rank=60 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.062023
+STAT rank=61 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.071992
+STAT rank=62 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.079663
+STAT rank=63 nivel=6 tam=3125 folha=1 t_bubble=0.023640 t_merge=0.000000 t_espera=0.000000
+STAT rank=64 nivel=6 tam=3125 folha=1 t_bubble=0.061205 t_merge=0.000000 t_espera=0.000000
+STAT rank=65 nivel=6 tam=3125 folha=1 t_bubble=0.031779 t_merge=0.000000 t_espera=0.000000
+STAT rank=66 nivel=6 tam=3125 folha=1 t_bubble=0.060134 t_merge=0.000000 t_espera=0.000000
+STAT rank=67 nivel=6 tam=3125 folha=1 t_bubble=0.029753 t_merge=0.000000 t_espera=0.000000
+STAT rank=68 nivel=6 tam=3125 folha=1 t_bubble=0.009899 t_merge=0.000000 t_espera=0.000000
+STAT rank=69 nivel=6 tam=3125 folha=1 t_bubble=0.037318 t_merge=0.000000 t_espera=0.000000
+STAT rank=70 nivel=6 tam=3125 folha=1 t_bubble=0.011179 t_merge=0.000000 t_espera=0.000000
+STAT rank=71 nivel=6 tam=3125 folha=1 t_bubble=0.016346 t_merge=0.000000 t_espera=0.000000
+STAT rank=72 nivel=6 tam=3125 folha=1 t_bubble=0.067659 t_merge=0.000000 t_espera=0.000000
+STAT rank=73 nivel=6 tam=3125 folha=1 t_bubble=0.017431 t_merge=0.000000 t_espera=0.000000
+STAT rank=74 nivel=6 tam=3125 folha=1 t_bubble=0.017177 t_merge=0.000000 t_espera=0.000000
+STAT rank=75 nivel=6 tam=3125 folha=1 t_bubble=0.064043 t_merge=0.000000 t_espera=0.000000
+STAT rank=76 nivel=6 tam=3125 folha=1 t_bubble=0.033027 t_merge=0.000000 t_espera=0.000000
+STAT rank=77 nivel=6 tam=3125 folha=1 t_bubble=0.041603 t_merge=0.000000 t_espera=0.000000
+STAT rank=78 nivel=6 tam=3125 folha=1 t_bubble=0.025344 t_merge=0.000000 t_espera=0.000000
+STAT rank=79 nivel=6 tam=3125 folha=1 t_bubble=0.043991 t_merge=0.000000 t_espera=0.000000
+STAT rank=80 nivel=6 tam=3125 folha=1 t_bubble=0.062209 t_merge=0.000000 t_espera=0.000000
+STAT rank=81 nivel=6 tam=3125 folha=1 t_bubble=0.055494 t_merge=0.000000 t_espera=0.000000
+STAT rank=82 nivel=6 tam=3125 folha=1 t_bubble=0.038243 t_merge=0.000000 t_espera=0.000000
+STAT rank=83 nivel=6 tam=3125 folha=1 t_bubble=0.035876 t_merge=0.000000 t_espera=0.000000
+STAT rank=84 nivel=6 tam=3125 folha=1 t_bubble=0.059676 t_merge=0.000000 t_espera=0.000000
+STAT rank=85 nivel=6 tam=3125 folha=1 t_bubble=0.059673 t_merge=0.000000 t_espera=0.000000
+STAT rank=86 nivel=6 tam=3125 folha=1 t_bubble=0.030085 t_merge=0.000000 t_espera=0.000000
+STAT rank=87 nivel=6 tam=3125 folha=1 t_bubble=0.037879 t_merge=0.000000 t_espera=0.000000
+STAT rank=88 nivel=6 tam=3125 folha=1 t_bubble=0.040987 t_merge=0.000000 t_espera=0.000000
+STAT rank=89 nivel=6 tam=3125 folha=1 t_bubble=0.049303 t_merge=0.000000 t_espera=0.000000
+STAT rank=90 nivel=6 tam=3125 folha=1 t_bubble=0.053361 t_merge=0.000000 t_espera=0.000000
+STAT rank=91 nivel=6 tam=3125 folha=1 t_bubble=0.055630 t_merge=0.000000 t_espera=0.000000
+STAT rank=92 nivel=6 tam=3125 folha=1 t_bubble=0.033796 t_merge=0.000000 t_espera=0.000000
+STAT rank=93 nivel=6 tam=3125 folha=1 t_bubble=0.023737 t_merge=0.000000 t_espera=0.000000
+STAT rank=94 nivel=6 tam=3125 folha=1 t_bubble=0.027570 t_merge=0.000000 t_espera=0.000000
+STAT rank=95 nivel=6 tam=3125 folha=1 t_bubble=0.035737 t_merge=0.000000 t_espera=0.000000
+STAT rank=96 nivel=6 tam=3125 folha=1 t_bubble=0.039111 t_merge=0.000000 t_espera=0.000000
+STAT rank=97 nivel=6 tam=3125 folha=1 t_bubble=0.044059 t_merge=0.000000 t_espera=0.000000
+STAT rank=98 nivel=6 tam=3125 folha=1 t_bubble=0.021366 t_merge=0.000000 t_espera=0.000000
+STAT rank=99 nivel=6 tam=3125 folha=1 t_bubble=0.036995 t_merge=0.000000 t_espera=0.000000
+STAT rank=100 nivel=6 tam=3125 folha=1 t_bubble=0.025374 t_merge=0.000000 t_espera=0.000000
+STAT rank=101 nivel=6 tam=3125 folha=1 t_bubble=0.024097 t_merge=0.000000 t_espera=0.000000
+STAT rank=102 nivel=6 tam=3125 folha=1 t_bubble=0.032807 t_merge=0.000000 t_espera=0.000000
+STAT rank=103 nivel=6 tam=3125 folha=1 t_bubble=0.028213 t_merge=0.000000 t_espera=0.000000
+STAT rank=104 nivel=6 tam=3125 folha=1 t_bubble=0.039892 t_merge=0.000000 t_espera=0.000000
+STAT rank=105 nivel=6 tam=3125 folha=1 t_bubble=0.031389 t_merge=0.000000 t_espera=0.000000
+STAT rank=106 nivel=6 tam=3125 folha=1 t_bubble=0.025363 t_merge=0.000000 t_espera=0.000000
+STAT rank=107 nivel=6 tam=3125 folha=1 t_bubble=0.048585 t_merge=0.000000 t_espera=0.000000
+STAT rank=108 nivel=6 tam=3125 folha=1 t_bubble=0.034331 t_merge=0.000000 t_espera=0.000000
+STAT rank=109 nivel=6 tam=3125 folha=1 t_bubble=0.016489 t_merge=0.000000 t_espera=0.000000
+STAT rank=110 nivel=6 tam=3125 folha=1 t_bubble=0.026000 t_merge=0.000000 t_espera=0.000000
+STAT rank=111 nivel=6 tam=3125 folha=1 t_bubble=0.027550 t_merge=0.000000 t_espera=0.000000
+STAT rank=112 nivel=6 tam=3125 folha=1 t_bubble=0.045383 t_merge=0.000000 t_espera=0.000000
+STAT rank=113 nivel=6 tam=3125 folha=1 t_bubble=0.017864 t_merge=0.000000 t_espera=0.000000
+STAT rank=114 nivel=6 tam=3125 folha=1 t_bubble=0.027359 t_merge=0.000000 t_espera=0.000000
+STAT rank=115 nivel=6 tam=3125 folha=1 t_bubble=0.062386 t_merge=0.000000 t_espera=0.000000
+STAT rank=116 nivel=6 tam=3125 folha=1 t_bubble=0.023200 t_merge=0.000000 t_espera=0.000000
+STAT rank=117 nivel=6 tam=3125 folha=1 t_bubble=0.022053 t_merge=0.000000 t_espera=0.000000
+STAT rank=118 nivel=6 tam=3125 folha=1 t_bubble=0.023735 t_merge=0.000000 t_espera=0.000000
+STAT rank=119 nivel=6 tam=3125 folha=1 t_bubble=0.045424 t_merge=0.000000 t_espera=0.000000
+STAT rank=120 nivel=6 tam=3125 folha=1 t_bubble=0.034257 t_merge=0.000000 t_espera=0.000000
+STAT rank=121 nivel=6 tam=3125 folha=1 t_bubble=0.062073 t_merge=0.000000 t_espera=0.000000
+STAT rank=122 nivel=6 tam=3125 folha=1 t_bubble=0.056832 t_merge=0.000000 t_espera=0.000000
+STAT rank=123 nivel=6 tam=3125 folha=1 t_bubble=0.061609 t_merge=0.000000 t_espera=0.000000
+STAT rank=124 nivel=6 tam=3125 folha=1 t_bubble=0.011777 t_merge=0.000000 t_espera=0.000000
+STAT rank=125 nivel=6 tam=3125 folha=1 t_bubble=0.026979 t_merge=0.000000 t_espera=0.000000
+STAT rank=126 nivel=6 tam=3125 folha=1 t_bubble=0.060819 t_merge=0.000000 t_espera=0.000000
+REP 8 yield=0
+RESULT versao=original n=200000 delta=3125 P=127 tempo=0.258497 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=0 t_bubble=0.000000 t_merge=0.000927 t_espera=0.237156
+STAT rank=1 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000455 t_espera=0.232545
+STAT rank=2 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000549 t_espera=0.177117
+STAT rank=3 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000264 t_espera=0.204174
+STAT rank=4 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000282 t_espera=0.176211
+STAT rank=5 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000963 t_espera=0.180354
+STAT rank=6 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000443 t_espera=0.180178
+STAT rank=7 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000135 t_espera=0.120071
+STAT rank=8 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000115 t_espera=0.092101
+STAT rank=9 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000652 t_espera=0.148531
+STAT rank=10 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000129 t_espera=0.096020
+STAT rank=11 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000471 t_espera=0.168301
+STAT rank=12 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000128 t_espera=0.160030
+STAT rank=13 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000132 t_espera=0.155767
+STAT rank=14 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000139 t_espera=0.167742
+STAT rank=15 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.072111
+STAT rank=16 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000066 t_espera=0.135775
+STAT rank=17 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000055 t_espera=0.084022
+STAT rank=18 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.095932
+STAT rank=19 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000066 t_espera=0.096035
+STAT rank=20 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000059 t_espera=0.148031
+STAT rank=21 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000060 t_espera=0.090631
+STAT rank=22 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000050 t_espera=0.096167
+STAT rank=23 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000060 t_espera=0.119999
+STAT rank=24 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000096 t_espera=0.096010
+STAT rank=25 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.166817
+STAT rank=26 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.079162
+STAT rank=27 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000251 t_espera=0.124155
+STAT rank=28 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.107578
+STAT rank=29 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.100923
+STAT rank=30 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000571 t_espera=0.060107
+STAT rank=31 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.084021
+STAT rank=32 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.031425
+STAT rank=33 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.060582
+STAT rank=34 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000037 t_espera=0.060004
+STAT rank=35 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.068462
+STAT rank=36 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.048299
+STAT rank=37 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.014680
+STAT rank=38 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.059664
+STAT rank=39 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.048066
+STAT rank=40 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.070983
+STAT rank=41 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000037 t_espera=0.028126
+STAT rank=42 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.099949
+STAT rank=43 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.087892
+STAT rank=44 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.077956
+STAT rank=45 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.039891
+STAT rank=46 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000036 t_espera=0.023621
+STAT rank=47 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.078957
+STAT rank=48 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.067983
+STAT rank=49 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.055437
+STAT rank=50 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.060010
+STAT rank=51 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.098745
+STAT rank=52 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.095447
+STAT rank=53 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000034 t_espera=0.082745
+STAT rank=54 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000028 t_espera=0.051404
+STAT rank=55 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.039929
+STAT rank=56 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.075033
+STAT rank=57 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.071180
+STAT rank=58 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.047566
+STAT rank=59 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.080676
+STAT rank=60 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.066122
+STAT rank=61 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.079205
+STAT rank=62 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000034 t_espera=0.095137
+STAT rank=63 nivel=6 tam=3125 folha=1 t_bubble=0.031757 t_merge=0.000000 t_espera=0.000000
+STAT rank=64 nivel=6 tam=3125 folha=1 t_bubble=0.075144 t_merge=0.000000 t_espera=0.000000
+STAT rank=65 nivel=6 tam=3125 folha=1 t_bubble=0.035994 t_merge=0.000000 t_espera=0.000000
+STAT rank=66 nivel=6 tam=3125 folha=1 t_bubble=0.017689 t_merge=0.000000 t_espera=0.000000
+STAT rank=67 nivel=6 tam=3125 folha=1 t_bubble=0.028384 t_merge=0.000000 t_espera=0.000000
+STAT rank=68 nivel=6 tam=3125 folha=1 t_bubble=0.036084 t_merge=0.000000 t_espera=0.000000
+STAT rank=69 nivel=6 tam=3125 folha=1 t_bubble=0.045732 t_merge=0.000000 t_espera=0.000000
+STAT rank=70 nivel=6 tam=3125 folha=1 t_bubble=0.059205 t_merge=0.000000 t_espera=0.000000
+STAT rank=71 nivel=6 tam=3125 folha=1 t_bubble=0.044717 t_merge=0.000000 t_espera=0.000000
+STAT rank=72 nivel=6 tam=3125 folha=1 t_bubble=0.067814 t_merge=0.000000 t_espera=0.000000
+STAT rank=73 nivel=6 tam=3125 folha=1 t_bubble=0.015841 t_merge=0.000000 t_espera=0.000000
+STAT rank=74 nivel=6 tam=3125 folha=1 t_bubble=0.047797 t_merge=0.000000 t_espera=0.000000
+STAT rank=75 nivel=6 tam=3125 folha=1 t_bubble=0.013537 t_merge=0.000000 t_espera=0.000000
+STAT rank=76 nivel=6 tam=3125 folha=1 t_bubble=0.011112 t_merge=0.000000 t_espera=0.000000
+STAT rank=77 nivel=6 tam=3125 folha=1 t_bubble=0.043496 t_merge=0.000000 t_espera=0.000000
+STAT rank=78 nivel=6 tam=3125 folha=1 t_bubble=0.044765 t_merge=0.000000 t_espera=0.000000
+STAT rank=79 nivel=6 tam=3125 folha=1 t_bubble=0.035559 t_merge=0.000000 t_espera=0.000000
+STAT rank=80 nivel=6 tam=3125 folha=1 t_bubble=0.011547 t_merge=0.000000 t_espera=0.000000
+STAT rank=81 nivel=6 tam=3125 folha=1 t_bubble=0.043712 t_merge=0.000000 t_espera=0.000000
+STAT rank=82 nivel=6 tam=3125 folha=1 t_bubble=0.029326 t_merge=0.000000 t_espera=0.000000
+STAT rank=83 nivel=6 tam=3125 folha=1 t_bubble=0.027214 t_merge=0.000000 t_espera=0.000000
+STAT rank=84 nivel=6 tam=3125 folha=1 t_bubble=0.011561 t_merge=0.000000 t_espera=0.000000
+STAT rank=85 nivel=6 tam=3125 folha=1 t_bubble=0.038980 t_merge=0.000000 t_espera=0.000000
+STAT rank=86 nivel=6 tam=3125 folha=1 t_bubble=0.064299 t_merge=0.000000 t_espera=0.000000
+STAT rank=87 nivel=6 tam=3125 folha=1 t_bubble=0.064191 t_merge=0.000000 t_espera=0.000000
+STAT rank=88 nivel=6 tam=3125 folha=1 t_bubble=0.065991 t_merge=0.000000 t_espera=0.000000
+STAT rank=89 nivel=6 tam=3125 folha=1 t_bubble=0.041271 t_merge=0.000000 t_espera=0.000000
+STAT rank=90 nivel=6 tam=3125 folha=1 t_bubble=0.014906 t_merge=0.000000 t_espera=0.000000
+STAT rank=91 nivel=6 tam=3125 folha=1 t_bubble=0.043623 t_merge=0.000000 t_espera=0.000000
+STAT rank=92 nivel=6 tam=3125 folha=1 t_bubble=0.020354 t_merge=0.000000 t_espera=0.000000
+STAT rank=93 nivel=6 tam=3125 folha=1 t_bubble=0.017706 t_merge=0.000000 t_espera=0.000000
+STAT rank=94 nivel=6 tam=3125 folha=1 t_bubble=0.017300 t_merge=0.000000 t_espera=0.000000
+STAT rank=95 nivel=6 tam=3125 folha=1 t_bubble=0.075933 t_merge=0.000000 t_espera=0.000000
+STAT rank=96 nivel=6 tam=3125 folha=1 t_bubble=0.038044 t_merge=0.000000 t_espera=0.000000
+STAT rank=97 nivel=6 tam=3125 folha=1 t_bubble=0.012306 t_merge=0.000000 t_espera=0.000000
+STAT rank=98 nivel=6 tam=3125 folha=1 t_bubble=0.062189 t_merge=0.000000 t_espera=0.000000
+STAT rank=99 nivel=6 tam=3125 folha=1 t_bubble=0.036147 t_merge=0.000000 t_espera=0.000000
+STAT rank=100 nivel=6 tam=3125 folha=1 t_bubble=0.025206 t_merge=0.000000 t_espera=0.000000
+STAT rank=101 nivel=6 tam=3125 folha=1 t_bubble=0.040129 t_merge=0.000000 t_espera=0.000000
+STAT rank=102 nivel=6 tam=3125 folha=1 t_bubble=0.031986 t_merge=0.000000 t_espera=0.000000
+STAT rank=103 nivel=6 tam=3125 folha=1 t_bubble=0.054807 t_merge=0.000000 t_espera=0.000000
+STAT rank=104 nivel=6 tam=3125 folha=1 t_bubble=0.077019 t_merge=0.000000 t_espera=0.000000
+STAT rank=105 nivel=6 tam=3125 folha=1 t_bubble=0.084769 t_merge=0.000000 t_espera=0.000000
+STAT rank=106 nivel=6 tam=3125 folha=1 t_bubble=0.035198 t_merge=0.000000 t_espera=0.000000
+STAT rank=107 nivel=6 tam=3125 folha=1 t_bubble=0.035653 t_merge=0.000000 t_espera=0.000000
+STAT rank=108 nivel=6 tam=3125 folha=1 t_bubble=0.049701 t_merge=0.000000 t_espera=0.000000
+STAT rank=109 nivel=6 tam=3125 folha=1 t_bubble=0.016957 t_merge=0.000000 t_espera=0.000000
+STAT rank=110 nivel=6 tam=3125 folha=1 t_bubble=0.027897 t_merge=0.000000 t_espera=0.000000
+STAT rank=111 nivel=6 tam=3125 folha=1 t_bubble=0.040952 t_merge=0.000000 t_espera=0.000000
+STAT rank=112 nivel=6 tam=3125 folha=1 t_bubble=0.009625 t_merge=0.000000 t_espera=0.000000
+STAT rank=113 nivel=6 tam=3125 folha=1 t_bubble=0.068367 t_merge=0.000000 t_espera=0.000000
+STAT rank=114 nivel=6 tam=3125 folha=1 t_bubble=0.072110 t_merge=0.000000 t_espera=0.000000
+STAT rank=115 nivel=6 tam=3125 folha=1 t_bubble=0.038928 t_merge=0.000000 t_espera=0.000000
+STAT rank=116 nivel=6 tam=3125 folha=1 t_bubble=0.023661 t_merge=0.000000 t_espera=0.000000
+STAT rank=117 nivel=6 tam=3125 folha=1 t_bubble=0.054705 t_merge=0.000000 t_espera=0.000000
+STAT rank=118 nivel=6 tam=3125 folha=1 t_bubble=0.026146 t_merge=0.000000 t_espera=0.000000
+STAT rank=119 nivel=6 tam=3125 folha=1 t_bubble=0.038923 t_merge=0.000000 t_espera=0.000000
+STAT rank=120 nivel=6 tam=3125 folha=1 t_bubble=0.055244 t_merge=0.000000 t_espera=0.000000
+STAT rank=121 nivel=6 tam=3125 folha=1 t_bubble=0.066209 t_merge=0.000000 t_espera=0.000000
+STAT rank=122 nivel=6 tam=3125 folha=1 t_bubble=0.046243 t_merge=0.000000 t_espera=0.000000
+STAT rank=123 nivel=6 tam=3125 folha=1 t_bubble=0.037577 t_merge=0.000000 t_espera=0.000000
+STAT rank=124 nivel=6 tam=3125 folha=1 t_bubble=0.045952 t_merge=0.000000 t_espera=0.000000
+STAT rank=125 nivel=6 tam=3125 folha=1 t_bubble=0.032864 t_merge=0.000000 t_espera=0.000000
+STAT rank=126 nivel=6 tam=3125 folha=1 t_bubble=0.038160 t_merge=0.000000 t_espera=0.000000
+REP 9 yield=0
+RESULT versao=original n=200000 delta=3125 P=127 tempo=0.309878 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=0 t_bubble=0.000000 t_merge=0.000935 t_espera=0.236922
+STAT rank=1 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000546 t_espera=0.180844
+STAT rank=2 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000502 t_espera=0.192245
+STAT rank=3 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000265 t_espera=0.156822
+STAT rank=4 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000253 t_espera=0.144429
+STAT rank=5 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000648 t_espera=0.123365
+STAT rank=6 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000696 t_espera=0.161716
+STAT rank=7 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000316 t_espera=0.140369
+STAT rank=8 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000378 t_espera=0.116368
+STAT rank=9 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000151 t_espera=0.132152
+STAT rank=10 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000479 t_espera=0.088770
+STAT rank=11 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000134 t_espera=0.116007
+STAT rank=12 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000125 t_espera=0.063050
+STAT rank=13 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000318 t_espera=0.116382
+STAT rank=14 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000165 t_espera=0.101451
+STAT rank=15 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000063 t_espera=0.127942
+STAT rank=16 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000076 t_espera=0.040327
+STAT rank=17 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000071 t_espera=0.052052
+STAT rank=18 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.092132
+STAT rank=19 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000062 t_espera=0.108011
+STAT rank=20 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.052918
+STAT rank=21 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000052 t_espera=0.040367
+STAT rank=22 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.088122
+STAT rank=23 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000069 t_espera=0.092088
+STAT rank=24 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000062 t_espera=0.092361
+STAT rank=25 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000054 t_espera=0.022884
+STAT rank=26 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000070 t_espera=0.031891
+STAT rank=27 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000068 t_espera=0.100021
+STAT rank=28 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000274 t_espera=0.052003
+STAT rank=29 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000067 t_espera=0.101283
+STAT rank=30 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000062 t_espera=0.048499
+STAT rank=31 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000036 t_espera=0.048008
+STAT rank=32 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.043880
+STAT rank=33 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.046000
+STAT rank=34 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.062459
+STAT rank=35 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.082841
+STAT rank=36 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.037868
+STAT rank=37 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.067733
+STAT rank=38 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.068183
+STAT rank=39 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.058990
+STAT rank=40 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.103450
+STAT rank=41 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.043992
+STAT rank=42 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.056830
+STAT rank=43 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000034 t_espera=0.032672
+STAT rank=44 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.062811
+STAT rank=45 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000050 t_espera=0.058621
+STAT rank=46 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.059502
+STAT rank=47 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.036753
+STAT rank=48 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.059052
+STAT rank=49 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.056000
+STAT rank=50 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.048065
+STAT rank=51 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000035 t_espera=0.032001
+STAT rank=52 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.010758
+STAT rank=53 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.019538
+STAT rank=54 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.034807
+STAT rank=55 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.056050
+STAT rank=56 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000037 t_espera=0.041976
+STAT rank=57 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.074772
+STAT rank=58 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.054259
+STAT rank=59 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.063971
+STAT rank=60 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000022 t_espera=0.064872
+STAT rank=61 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.086817
+STAT rank=62 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.033348
+STAT rank=63 nivel=6 tam=3125 folha=1 t_bubble=0.011418 t_merge=0.000000 t_espera=0.000000
+STAT rank=64 nivel=6 tam=3125 folha=1 t_bubble=0.042252 t_merge=0.000000 t_espera=0.000000
+STAT rank=65 nivel=6 tam=3125 folha=1 t_bubble=0.060745 t_merge=0.000000 t_espera=0.000000
+STAT rank=66 nivel=6 tam=3125 folha=1 t_bubble=0.034820 t_merge=0.000000 t_espera=0.000000
+STAT rank=67 nivel=6 tam=3125 folha=1 t_bubble=0.035563 t_merge=0.000000 t_espera=0.000000
+STAT rank=68 nivel=6 tam=3125 folha=1 t_bubble=0.045552 t_merge=0.000000 t_espera=0.000000
+STAT rank=69 nivel=6 tam=3125 folha=1 t_bubble=0.026349 t_merge=0.000000 t_espera=0.000000
+STAT rank=70 nivel=6 tam=3125 folha=1 t_bubble=0.053499 t_merge=0.000000 t_espera=0.000000
+STAT rank=71 nivel=6 tam=3125 folha=1 t_bubble=0.035601 t_merge=0.000000 t_espera=0.000000
+STAT rank=72 nivel=6 tam=3125 folha=1 t_bubble=0.075848 t_merge=0.000000 t_espera=0.000000
+STAT rank=73 nivel=6 tam=3125 folha=1 t_bubble=0.040030 t_merge=0.000000 t_espera=0.000000
+STAT rank=74 nivel=6 tam=3125 folha=1 t_bubble=0.037404 t_merge=0.000000 t_espera=0.000000
+STAT rank=75 nivel=6 tam=3125 folha=1 t_bubble=0.044097 t_merge=0.000000 t_espera=0.000000
+STAT rank=76 nivel=6 tam=3125 folha=1 t_bubble=0.044576 t_merge=0.000000 t_espera=0.000000
+STAT rank=77 nivel=6 tam=3125 folha=1 t_bubble=0.068288 t_merge=0.000000 t_espera=0.000000
+STAT rank=78 nivel=6 tam=3125 folha=1 t_bubble=0.039694 t_merge=0.000000 t_espera=0.000000
+STAT rank=79 nivel=6 tam=3125 folha=1 t_bubble=0.035537 t_merge=0.000000 t_espera=0.000000
+STAT rank=80 nivel=6 tam=3125 folha=1 t_bubble=0.035949 t_merge=0.000000 t_espera=0.000000
+STAT rank=81 nivel=6 tam=3125 folha=1 t_bubble=0.051162 t_merge=0.000000 t_espera=0.000000
+STAT rank=82 nivel=6 tam=3125 folha=1 t_bubble=0.047904 t_merge=0.000000 t_espera=0.000000
+STAT rank=83 nivel=6 tam=3125 folha=1 t_bubble=0.062627 t_merge=0.000000 t_espera=0.000000
+STAT rank=84 nivel=6 tam=3125 folha=1 t_bubble=0.027664 t_merge=0.000000 t_espera=0.000000
+STAT rank=85 nivel=6 tam=3125 folha=1 t_bubble=0.037529 t_merge=0.000000 t_espera=0.000000
+STAT rank=86 nivel=6 tam=3125 folha=1 t_bubble=0.035614 t_merge=0.000000 t_espera=0.000000
+STAT rank=87 nivel=6 tam=3125 folha=1 t_bubble=0.041685 t_merge=0.000000 t_espera=0.000000
+STAT rank=88 nivel=6 tam=3125 folha=1 t_bubble=0.027908 t_merge=0.000000 t_espera=0.000000
+STAT rank=89 nivel=6 tam=3125 folha=1 t_bubble=0.015180 t_merge=0.000000 t_espera=0.000000
+STAT rank=90 nivel=6 tam=3125 folha=1 t_bubble=0.052575 t_merge=0.000000 t_espera=0.000000
+STAT rank=91 nivel=6 tam=3125 folha=1 t_bubble=0.027577 t_merge=0.000000 t_espera=0.000000
+STAT rank=92 nivel=6 tam=3125 folha=1 t_bubble=0.058150 t_merge=0.000000 t_espera=0.000000
+STAT rank=93 nivel=6 tam=3125 folha=1 t_bubble=0.036792 t_merge=0.000000 t_espera=0.000000
+STAT rank=94 nivel=6 tam=3125 folha=1 t_bubble=0.034839 t_merge=0.000000 t_espera=0.000000
+STAT rank=95 nivel=6 tam=3125 folha=1 t_bubble=0.053235 t_merge=0.000000 t_espera=0.000000
+STAT rank=96 nivel=6 tam=3125 folha=1 t_bubble=0.031621 t_merge=0.000000 t_espera=0.000000
+STAT rank=97 nivel=6 tam=3125 folha=1 t_bubble=0.029260 t_merge=0.000000 t_espera=0.000000
+STAT rank=98 nivel=6 tam=3125 folha=1 t_bubble=0.056062 t_merge=0.000000 t_espera=0.000000
+STAT rank=99 nivel=6 tam=3125 folha=1 t_bubble=0.041545 t_merge=0.000000 t_espera=0.000000
+STAT rank=100 nivel=6 tam=3125 folha=1 t_bubble=0.033425 t_merge=0.000000 t_espera=0.000000
+STAT rank=101 nivel=6 tam=3125 folha=1 t_bubble=0.060368 t_merge=0.000000 t_espera=0.000000
+STAT rank=102 nivel=6 tam=3125 folha=1 t_bubble=0.044265 t_merge=0.000000 t_espera=0.000000
+STAT rank=103 nivel=6 tam=3125 folha=1 t_bubble=0.017704 t_merge=0.000000 t_espera=0.000000
+STAT rank=104 nivel=6 tam=3125 folha=1 t_bubble=0.019217 t_merge=0.000000 t_espera=0.000000
+STAT rank=105 nivel=6 tam=3125 folha=1 t_bubble=0.011868 t_merge=0.000000 t_espera=0.000000
+STAT rank=106 nivel=6 tam=3125 folha=1 t_bubble=0.010274 t_merge=0.000000 t_espera=0.000000
+STAT rank=107 nivel=6 tam=3125 folha=1 t_bubble=0.012065 t_merge=0.000000 t_espera=0.000000
+STAT rank=108 nivel=6 tam=3125 folha=1 t_bubble=0.012837 t_merge=0.000000 t_espera=0.000000
+STAT rank=109 nivel=6 tam=3125 folha=1 t_bubble=0.019031 t_merge=0.000000 t_espera=0.000000
+STAT rank=110 nivel=6 tam=3125 folha=1 t_bubble=0.026322 t_merge=0.000000 t_espera=0.000000
+STAT rank=111 nivel=6 tam=3125 folha=1 t_bubble=0.041062 t_merge=0.000000 t_espera=0.000000
+STAT rank=112 nivel=6 tam=3125 folha=1 t_bubble=0.040627 t_merge=0.000000 t_espera=0.000000
+STAT rank=113 nivel=6 tam=3125 folha=1 t_bubble=0.029113 t_merge=0.000000 t_espera=0.000000
+STAT rank=114 nivel=6 tam=3125 folha=1 t_bubble=0.041467 t_merge=0.000000 t_espera=0.000000
+STAT rank=115 nivel=6 tam=3125 folha=1 t_bubble=0.074761 t_merge=0.000000 t_espera=0.000000
+STAT rank=116 nivel=6 tam=3125 folha=1 t_bubble=0.012730 t_merge=0.000000 t_espera=0.000000
+STAT rank=117 nivel=6 tam=3125 folha=1 t_bubble=0.035544 t_merge=0.000000 t_espera=0.000000
+STAT rank=118 nivel=6 tam=3125 folha=1 t_bubble=0.043966 t_merge=0.000000 t_espera=0.000000
+STAT rank=119 nivel=6 tam=3125 folha=1 t_bubble=0.015656 t_merge=0.000000 t_espera=0.000000
+STAT rank=120 nivel=6 tam=3125 folha=1 t_bubble=0.049256 t_merge=0.000000 t_espera=0.000000
+STAT rank=121 nivel=6 tam=3125 folha=1 t_bubble=0.030409 t_merge=0.000000 t_espera=0.000000
+STAT rank=122 nivel=6 tam=3125 folha=1 t_bubble=0.064400 t_merge=0.000000 t_espera=0.000000
+STAT rank=123 nivel=6 tam=3125 folha=1 t_bubble=0.044370 t_merge=0.000000 t_espera=0.000000
+STAT rank=124 nivel=6 tam=3125 folha=1 t_bubble=0.042984 t_merge=0.000000 t_espera=0.000000
+STAT rank=125 nivel=6 tam=3125 folha=1 t_bubble=0.011770 t_merge=0.000000 t_espera=0.000000
+STAT rank=126 nivel=6 tam=3125 folha=1 t_bubble=0.032024 t_merge=0.000000 t_espera=0.000000
+REP 10 yield=0
+RESULT versao=original n=200000 delta=3125 P=127 tempo=0.281844 verificacao=OK
+STAT rank=0 nivel=0 tam=200000 folha=0 t_bubble=0.000000 t_merge=0.000935 t_espera=0.212860
+STAT rank=1 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000763 t_espera=0.145513
+STAT rank=2 nivel=1 tam=100000 folha=0 t_bubble=0.000000 t_merge=0.000516 t_espera=0.156195
+STAT rank=3 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000267 t_espera=0.156046
+STAT rank=4 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000687 t_espera=0.167912
+STAT rank=5 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000224 t_espera=0.179836
+STAT rank=6 nivel=2 tam=50000 folha=0 t_bubble=0.000000 t_merge=0.000266 t_espera=0.084084
+STAT rank=7 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000319 t_espera=0.112379
+STAT rank=8 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000128 t_espera=0.160454
+STAT rank=9 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000145 t_espera=0.128062
+STAT rank=10 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000133 t_espera=0.132018
+STAT rank=11 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000110 t_espera=0.144053
+STAT rank=12 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000136 t_espera=0.100342
+STAT rank=13 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000193 t_espera=0.104330
+STAT rank=14 nivel=3 tam=25000 folha=0 t_bubble=0.000000 t_merge=0.000311 t_espera=0.088211
+STAT rank=15 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000070 t_espera=0.080019
+STAT rank=16 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.060132
+STAT rank=17 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000061 t_espera=0.104021
+STAT rank=18 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.112449
+STAT rank=19 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000244 t_espera=0.135421
+STAT rank=20 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.084024
+STAT rank=21 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.080033
+STAT rank=22 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000069 t_espera=0.052023
+STAT rank=23 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000070 t_espera=0.116147
+STAT rank=24 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.056008
+STAT rank=25 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000065 t_espera=0.099876
+STAT rank=26 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000071 t_espera=0.052021
+STAT rank=27 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.052119
+STAT rank=28 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000060 t_espera=0.064243
+STAT rank=29 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000062 t_espera=0.103633
+STAT rank=30 nivel=4 tam=12500 folha=0 t_bubble=0.000000 t_merge=0.000064 t_espera=0.071814
+STAT rank=31 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.059428
+STAT rank=32 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.047441
+STAT rank=33 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.091020
+STAT rank=34 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.057438
+STAT rank=35 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.091010
+STAT rank=36 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.054997
+STAT rank=37 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.093317
+STAT rank=38 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.095996
+STAT rank=39 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000031 t_espera=0.079368
+STAT rank=40 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.053166
+STAT rank=41 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.059939
+STAT rank=42 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.044101
+STAT rank=43 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.062125
+STAT rank=44 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.057484
+STAT rank=45 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.058400
+STAT rank=46 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000385 t_espera=0.073886
+STAT rank=47 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.028892
+STAT rank=48 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.079976
+STAT rank=49 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.047993
+STAT rank=50 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.036118
+STAT rank=51 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.044115
+STAT rank=52 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000036 t_espera=0.052363
+STAT rank=53 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.042970
+STAT rank=54 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.066268
+STAT rank=55 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000032 t_espera=0.042347
+STAT rank=56 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000039 t_espera=0.050542
+STAT rank=57 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.050973
+STAT rank=58 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.020363
+STAT rank=59 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000029 t_espera=0.034146
+STAT rank=60 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.039919
+STAT rank=61 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000030 t_espera=0.051397
+STAT rank=62 nivel=5 tam=6250 folha=0 t_bubble=0.000000 t_merge=0.000033 t_espera=0.069055
+STAT rank=63 nivel=6 tam=3125 folha=1 t_bubble=0.011816 t_merge=0.000000 t_espera=0.000000
+STAT rank=64 nivel=6 tam=3125 folha=1 t_bubble=0.050728 t_merge=0.000000 t_espera=0.000000
+STAT rank=65 nivel=6 tam=3125 folha=1 t_bubble=0.037479 t_merge=0.000000 t_espera=0.000000
+STAT rank=66 nivel=6 tam=3125 folha=1 t_bubble=0.046943 t_merge=0.000000 t_espera=0.000000
+STAT rank=67 nivel=6 tam=3125 folha=1 t_bubble=0.089080 t_merge=0.000000 t_espera=0.000000
+STAT rank=68 nivel=6 tam=3125 folha=1 t_bubble=0.032106 t_merge=0.000000 t_espera=0.000000
+STAT rank=69 nivel=6 tam=3125 folha=1 t_bubble=0.033389 t_merge=0.000000 t_espera=0.000000
+STAT rank=70 nivel=6 tam=3125 folha=1 t_bubble=0.031874 t_merge=0.000000 t_espera=0.000000
+STAT rank=71 nivel=6 tam=3125 folha=1 t_bubble=0.056887 t_merge=0.000000 t_espera=0.000000
+STAT rank=72 nivel=6 tam=3125 folha=1 t_bubble=0.037378 t_merge=0.000000 t_espera=0.000000
+STAT rank=73 nivel=6 tam=3125 folha=1 t_bubble=0.037025 t_merge=0.000000 t_espera=0.000000
+STAT rank=74 nivel=6 tam=3125 folha=1 t_bubble=0.028914 t_merge=0.000000 t_espera=0.000000
+STAT rank=75 nivel=6 tam=3125 folha=1 t_bubble=0.035602 t_merge=0.000000 t_espera=0.000000
+STAT rank=76 nivel=6 tam=3125 folha=1 t_bubble=0.092852 t_merge=0.000000 t_espera=0.000000
+STAT rank=77 nivel=6 tam=3125 folha=1 t_bubble=0.049824 t_merge=0.000000 t_espera=0.000000
+STAT rank=78 nivel=6 tam=3125 folha=1 t_bubble=0.053421 t_merge=0.000000 t_espera=0.000000
+STAT rank=79 nivel=6 tam=3125 folha=1 t_bubble=0.034357 t_merge=0.000000 t_espera=0.000000
+STAT rank=80 nivel=6 tam=3125 folha=1 t_bubble=0.065836 t_merge=0.000000 t_espera=0.000000
+STAT rank=81 nivel=6 tam=3125 folha=1 t_bubble=0.044132 t_merge=0.000000 t_espera=0.000000
+STAT rank=82 nivel=6 tam=3125 folha=1 t_bubble=0.033337 t_merge=0.000000 t_espera=0.000000
+STAT rank=83 nivel=6 tam=3125 folha=1 t_bubble=0.035578 t_merge=0.000000 t_espera=0.000000
+STAT rank=84 nivel=6 tam=3125 folha=1 t_bubble=0.026041 t_merge=0.000000 t_espera=0.000000
+STAT rank=85 nivel=6 tam=3125 folha=1 t_bubble=0.037550 t_merge=0.000000 t_espera=0.000000
+STAT rank=86 nivel=6 tam=3125 folha=1 t_bubble=0.041567 t_merge=0.000000 t_espera=0.000000
+STAT rank=87 nivel=6 tam=3125 folha=1 t_bubble=0.043816 t_merge=0.000000 t_espera=0.000000
+STAT rank=88 nivel=6 tam=3125 folha=1 t_bubble=0.048945 t_merge=0.000000 t_espera=0.000000
+STAT rank=89 nivel=6 tam=3125 folha=1 t_bubble=0.030215 t_merge=0.000000 t_espera=0.000000
+STAT rank=90 nivel=6 tam=3125 folha=1 t_bubble=0.056991 t_merge=0.000000 t_espera=0.000000
+STAT rank=91 nivel=6 tam=3125 folha=1 t_bubble=0.049019 t_merge=0.000000 t_espera=0.000000
+STAT rank=92 nivel=6 tam=3125 folha=1 t_bubble=0.036113 t_merge=0.000000 t_espera=0.000000
+STAT rank=93 nivel=6 tam=3125 folha=1 t_bubble=0.041287 t_merge=0.000000 t_espera=0.000000
+STAT rank=94 nivel=6 tam=3125 folha=1 t_bubble=0.073424 t_merge=0.000000 t_espera=0.000000
+STAT rank=95 nivel=6 tam=3125 folha=1 t_bubble=0.031534 t_merge=0.000000 t_espera=0.000000
+STAT rank=96 nivel=6 tam=3125 folha=1 t_bubble=0.027496 t_merge=0.000000 t_espera=0.000000
+STAT rank=97 nivel=6 tam=3125 folha=1 t_bubble=0.035324 t_merge=0.000000 t_espera=0.000000
+STAT rank=98 nivel=6 tam=3125 folha=1 t_bubble=0.063245 t_merge=0.000000 t_espera=0.000000
+STAT rank=99 nivel=6 tam=3125 folha=1 t_bubble=0.033134 t_merge=0.000000 t_espera=0.000000
+STAT rank=100 nivel=6 tam=3125 folha=1 t_bubble=0.026525 t_merge=0.000000 t_espera=0.000000
+STAT rank=101 nivel=6 tam=3125 folha=1 t_bubble=0.027643 t_merge=0.000000 t_espera=0.000000
+STAT rank=102 nivel=6 tam=3125 folha=1 t_bubble=0.011010 t_merge=0.000000 t_espera=0.000000
+STAT rank=103 nivel=6 tam=3125 folha=1 t_bubble=0.037668 t_merge=0.000000 t_espera=0.000000
+STAT rank=104 nivel=6 tam=3125 folha=1 t_bubble=0.011762 t_merge=0.000000 t_espera=0.000000
+STAT rank=105 nivel=6 tam=3125 folha=1 t_bubble=0.052769 t_merge=0.000000 t_espera=0.000000
+STAT rank=106 nivel=6 tam=3125 folha=1 t_bubble=0.037106 t_merge=0.000000 t_espera=0.000000
+STAT rank=107 nivel=6 tam=3125 folha=1 t_bubble=0.038308 t_merge=0.000000 t_espera=0.000000
+STAT rank=108 nivel=6 tam=3125 folha=1 t_bubble=0.036114 t_merge=0.000000 t_espera=0.000000
+STAT rank=109 nivel=6 tam=3125 folha=1 t_bubble=0.063276 t_merge=0.000000 t_espera=0.000000
+STAT rank=110 nivel=6 tam=3125 folha=1 t_bubble=0.025514 t_merge=0.000000 t_espera=0.000000
+STAT rank=111 nivel=6 tam=3125 folha=1 t_bubble=0.042623 t_merge=0.000000 t_espera=0.000000
+STAT rank=112 nivel=6 tam=3125 folha=1 t_bubble=0.026505 t_merge=0.000000 t_espera=0.000000
+STAT rank=113 nivel=6 tam=3125 folha=1 t_bubble=0.028193 t_merge=0.000000 t_espera=0.000000
+STAT rank=114 nivel=6 tam=3125 folha=1 t_bubble=0.029157 t_merge=0.000000 t_espera=0.000000
+STAT rank=115 nivel=6 tam=3125 folha=1 t_bubble=0.058438 t_merge=0.000000 t_espera=0.000000
+STAT rank=116 nivel=6 tam=3125 folha=1 t_bubble=0.016540 t_merge=0.000000 t_espera=0.000000
+STAT rank=117 nivel=6 tam=3125 folha=1 t_bubble=0.023818 t_merge=0.000000 t_espera=0.000000
+STAT rank=118 nivel=6 tam=3125 folha=1 t_bubble=0.011619 t_merge=0.000000 t_espera=0.000000
+STAT rank=119 nivel=6 tam=3125 folha=1 t_bubble=0.032948 t_merge=0.000000 t_espera=0.000000
+STAT rank=120 nivel=6 tam=3125 folha=1 t_bubble=0.009928 t_merge=0.000000 t_espera=0.000000
+STAT rank=121 nivel=6 tam=3125 folha=1 t_bubble=0.030170 t_merge=0.000000 t_espera=0.000000
+STAT rank=122 nivel=6 tam=3125 folha=1 t_bubble=0.039428 t_merge=0.000000 t_espera=0.000000
+STAT rank=123 nivel=6 tam=3125 folha=1 t_bubble=0.019879 t_merge=0.000000 t_espera=0.000000
+STAT rank=124 nivel=6 tam=3125 folha=1 t_bubble=0.039120 t_merge=0.000000 t_espera=0.000000
+STAT rank=125 nivel=6 tam=3125 folha=1 t_bubble=0.034236 t_merge=0.000000 t_espera=0.000000
+STAT rank=126 nivel=6 tam=3125 folha=1 t_bubble=0.063517 t_merge=0.000000 t_espera=0.000000

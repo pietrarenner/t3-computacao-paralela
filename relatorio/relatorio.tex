@@ -1,0 +1,44 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}\usepackage[brazil]{babel}
+\usepackage[margin=1.6cm]{geometry}\usepackage{booktabs,graphicx,listings,xcolor,float,caption,enumitem}
+\captionsetup{font=small,skip=2pt}\setlist{nosep,leftmargin=1.2em}
+\lstset{language=C,numbers=left,numberstyle=\tiny,basicstyle=\ttfamily\scriptsize,breaklines=true,
+  frame=single,tabsize=4,columns=fullflexible,keepspaces=true,upquote=true,extendedchars=true,literate={á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1 {â}{{\^a}}1 {ê}{{\^e}}1 {ô}{{\^o}}1 {ã}{{\~a}}1 {õ}{{\~o}}1 {ç}{{\c c}}1 {Á}{{\'A}}1 {É}{{\'E}}1 {Ç}{{\c C}}1 {Ã}{{\~A}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1 {à}{{\`a}}1 {ª}{{\textordfeminine}}1 {–}{{-}}1 {—}{{-}}1 {δ}{{delta}}1}
+\newcommand{\TODO}[1]{\textcolor{red}{\textbf{[PREENCHER: #1]}}}
+\IfFileExists{../analise/tab_original.tex}{\newcommand{\tab}[1]{\input{../analise/#1.tex}}}{\newcommand{\tab}[1]{\TODO{rode scripts/analisa.py}}}
+\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}
+\begin{document}
+{\large\textbf{T3 -- Divisão e conquista com MPI: ordenação de vetor}}\hfill
+\textbf{Grupo:} \TODO{nomes dos integrantes}\hfill \textbf{Código:} \TODO{link do repositório git público}\\[2pt]
+\small
+\textbf{Ambiente:} cluster Atlântica (LAD), 2 nós exclusivos (\TODO{nomes dos nós}), \TODO{conferir com \texttt{lscpu}: Xeon E5520, 2 sockets$\times$4 núcleos, HT $\Rightarrow$ 16 threads/nó}; Open MPI \TODO{versão}, \texttt{gcc -O2} em todos os binários. $n=$ \TODO{tamanho do vetor, com $T_1$ entre 30 e 60 s}. Distribuição dos processos: \TODO{tarefas por nó, vide cabeçalho dos \texttt{.out}}. Medição: \texttt{MPI\_Wtime()} na raiz, da distribuição até a raiz ter o vetor ordenado (inicialização fora), 10 repetições, mediana [mín; máx]; toda execução verificou o vetor final (\texttt{verificacao=OK}).
+
+\section*{Análise dos resultados}
+\textbf{1. Modelagem.} Um único executável (SPMD). Na versão original a árvore é binária heap-like: pai $=\lfloor(r-1)/2\rfloor$, filhos $2r+1$ e $2r+2$; o papel vem da comparação $n_{\mathrm{recebido}}\le\delta$ (folha) ou não (interno; a raiz é o processo 0, que gera o vetor). Com $P=2^k-1$, $\delta=\lceil 2n/(P+1)\rceil$ e a árvore ocupa exatamente os $P$ processos (linhas \TODO{nº das linhas em original.c}). O tamanho vem na mensagem (\texttt{MPI\_Probe}+\texttt{MPI\_Get\_count}) e o pai envia as duas metades antes de esperar, de modo que os filhos trabalham juntos. Na versão balanceada (adaptada de Radenski, GPL) o processo $r$ no nível $L$ envia a 2ª metade a $r+2^L$, \emph{fica} com a 1ª e desce ao nível $L+1$; o ajudante $r'$ entra no nível $\mathrm{bits}(r')$ e seu pai é $r'$ sem o bit mais alto (por isso o ajudante é $r+2^L$: os ranks com bit mais alto em $L$ ainda não foram usados por ninguém, e cada rank é ajudante de exatamente um processo). Aceita qualquer $P$; com $P=2^k$ todos terminam com $n/P$ elementos. \texttt{MPI\_Isend} + \texttt{MPI\_Request\_free}: a transferência é assíncrona, o buffer \texttt{v+n/2} não é tocado pelo remetente até receber o resultado do ajudante, o que só ocorre depois de o ajudante ter recebido tudo. As referências sequenciais percorrem a mesma árvore: \texttt{./sequencial n delta} (original) e \texttt{./sequencial n -p P} (balanceada, mesma regra $r+2^L$ e mesmas metades; para $P=31$ ela tem 31 folhas de 156 a 313 elementos para $n=5001$, igual à paralela --- \TODO{conferir com seu $n$ usando as linhas \texttt{STAT}}).
+
+\textbf{2. Speed-up e eficiência.} Tab.~\ref{t:orig} e~\ref{t:bal}, Fig.~\ref{f:sp}. $T_1/T_1^\delta$ (ganho de algoritmo) explica $S>P$: \TODO{explicar com os números; $S=S_\delta\cdot T_1/T_1^\delta$; Bubble é $O(n^2)$ então cada divisão em 2 divide o custo das folhas por $\sim$2 por nível}. Distribuição da carga na balanceada com 31 processos (Fig.~\ref{f:carga}): \TODO{folhas de 156/157 vs. 313 elementos; o processo com a folha maior vira o gargalo (Bubble $\propto$ tamanho$^2$: $\approx4\times$ a das demais); consequência para $E$}.
+
+\begin{table}[H]\centering\small\tab{tab_original}\caption{Versão original, 2 nós. $E=S_\delta/P$.}\label{t:orig}\end{table}
+\begin{table}[H]\centering\small\tab{tab_balanceada}\caption{Versão balanceada ($S_\delta$ contra a árvore balanceada correspondente).}\label{t:bal}\end{table}
+\begin{figure}[H]\centering\IfFileExists{../analise/fig_speedup.png}{\includegraphics[width=.5\linewidth]{../analise/fig_speedup.png}}{\TODO{fig}}\IfFileExists{../analise/fig_carga31.png}{\includegraphics[width=.5\linewidth]{../analise/fig_carga31.png}}{}\caption{Esq.: $S_\delta$ das duas versões. Dir.: tempo de computação por processo, balanceada, $P=31$.}\label{f:sp}\label{f:carga}\end{figure}
+
+\textbf{3. Balanceamento por nível (original).} \TODO{usar a tabela ``carga por nível'' de analise/resumo.txt: só as folhas gastam em Bubble Sort; internos só intercalam e passam quase todo o tempo em \texttt{MPI\_Recv} (t\_espera); fração de processos ociosos = $(P-1)/2$ internos; com 31 processos 15 ficam esperando}.
+
+\textbf{4. Ganho do HT.} \TODO{comparar 15 $\to$ 31 (original) e 16 $\to$ 32 (balanceada): 16 núcleos físicos vs. 32 threads. Ganho em $T_P$, e por que fica abaixo de 2$\times$ (threads de um núcleo dividem unidades de execução/cache; o Bubble Sort é limitado por acesso à memória/branches)}.
+
+\textbf{5. Ganho do balanceamento.} \TODO{sem alterar o código: série 63--1023 vs. 31; alterando o código: balanceada 31 vs. original 31, 32 vs. 31, 16 vs. 15; o que muda quando P não é potência de 2}.
+
+\textbf{6. 63 a 1023 processos.} Tab.~\ref{t:y0},~\ref{t:y1}, Fig.~\ref{f:serie}. \TODO{eficiência contra 32 threads; yield=0: processos internos em espera ativa ocupam threads que as folhas precisariam (e há mais processos que threads, então o escalonador reparte o tempo com quem só gira); yield=1: o processo parado cede o núcleo, o escalonador do SO devolve as threads às folhas $\Rightarrow$ balanceia; custo: troca de contexto e número de folhas $=(P+1)/2$ com pedaços cada vez menores, intercalações e mensagens crescem}.
+
+\begin{table}[H]\centering\small\tab{tab_serie_yield0}\caption{Original, 63--1023 processos, \texttt{OMPI\_MCA\_mpi\_yield\_when\_idle=0}. $E=S_\delta/32$.}\label{t:y0}\end{table}
+\begin{table}[H]\centering\small\tab{tab_serie_yield1}\caption{Idem, \texttt{OMPI\_MCA\_mpi\_yield\_when\_idle=1}.}\label{t:y1}\end{table}
+\begin{figure}[H]\centering\IfFileExists{../analise/fig_serie63.png}{\includegraphics[width=.5\linewidth]{../analise/fig_serie63.png}}{\TODO{fig}}\caption{$T_P$ com espera ativa e com o núcleo cedido.}\label{f:serie}\end{figure}
+
+\textbf{7. Uso de IA.} \TODO{declarar: ferramenta (Claude Code), para quê foi usada (gerar o esqueleto do código, scripts, script de análise), e que o grupo revisou e consegue explicar cada linha. Código da balanceada adaptado de A. Radenski, \emph{mpi\_mergesort.c}, GPL v2+.}
+
+\clearpage\normalsize
+\section*{Código}
+\subsection*{original.c}\lstinputlisting{../original.c}
+\subsection*{balanceada.c}\lstinputlisting{../balanceada.c}
+\subsection*{sequencial.c (do professor, estendido com o modo \texttt{-p P})}\lstinputlisting{../sequencial.c}
+\end{document}

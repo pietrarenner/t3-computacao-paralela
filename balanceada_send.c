@@ -99,7 +99,8 @@ static void ordena_paralelo(int *v, int n, int *aux, int nivel, int my_rank, int
     /* Envio bloqueante da 2a metade. O ajudante ja espera em MPI_Probe/MPI_Recv,
        entao o MPI_Send termina logo e as duas metades sao ordenadas ao mesmo
        tempo; quando volta, o buffer v+n/2 ja pode ser lido de novo. */
-    MPI_Send(v + n / 2, n - n / 2, MPI_INT, ajudante, TAG, MPI_COMM_WORLD);
+    MPI_Send(v + n / 2, n - n / 2, MPI_INT, ajudante, TAG, MPI_COMM_WORLD); // chamada bloqueante: envia metade direita ao ajudante (rank + 2^nivel) e espera entrega
+    // como ajudante ja esta esperando, o MPI_Send termina em milissegundos e as duas metades sao ordenadas ao mesmo tempo
     ordena_paralelo(v, n / 2, aux, nivel + 1, my_rank, max_rank);
     double a = MPI_Wtime();
     MPI_Recv(v + n / 2, n - n / 2, MPI_INT, ajudante, TAG, MPI_COMM_WORLD, MPI_STATUS_IGNORE);

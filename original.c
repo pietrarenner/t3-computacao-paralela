@@ -46,8 +46,8 @@ int main(int argc, char **argv)
 {
     MPI_Init(&argc, &argv);
     int my_rank, P;
-    MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
-    MPI_Comm_size(MPI_COMM_WORLD, &P);
+    MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);    // dá o número do processo (rank) (0..P-1)
+    MPI_Comm_size(MPI_COMM_WORLD, &P);  // dá o número total de processos (P)
 
     if (argc != 3) {
         if (my_rank == 0) fprintf(stderr, "uso: %s n delta\n", argv[0]);
@@ -55,53 +55,54 @@ int main(int argc, char **argv)
         return 1;
     }
     int n = atoi(argv[1]);          /* tamanho do vetor (linha de comando) */
-    int delta = atoi(argv[2]);      /* limiar de conquista (linha de comando) */
+    int delta = atoi(argv[2]);      /* limiar de conquista (a partir de que tamanho vira folha) */
 
-    /* Posição na árvore: tudo sai do rank. */
-    int pai = (my_rank - 1) / 2;
-    int filho_esq = 2 * my_rank + 1;
-    int filho_dir = 2 * my_rank + 2;
+    /* Posição na árvore */
+    int pai = (my_rank - 1) / 2;    // pai do processo (rank) atual
+    int filho_esq = 2 * my_rank + 1;  // filho esquerdo do processo (rank) atual
+    int filho_dir = 2 * my_rank + 2;  // filho direito do processo (rank) atual
     int nivel = 0;
-    while ((1 << (nivel + 1)) - 1 <= my_rank) nivel++;   /* nivel = floor(log2(rank+1)) */
+    while ((1 << (nivel + 1)) - 1 <= my_rank) nivel++;   /* nivel na árvore = floor(log2(rank+1)) */
 
-    int *vetor = NULL, tam_vetor = 0;
+    int *vetor = NULL, tam_vetor = 0;   // pedaço que esse processo vai ordenar (recebido do pai ou gerado na raiz)
     double t_bubble = 0, t_merge = 0, t_espera = 0;      /* métricas por processo */
     double t0 = 0;
 
-    if (my_rank == 0) {                                  /* raiz: gera o vetor */
+    if (my_rank == 0) {                                  /* raiz: gera e preenche o vetor descrescente */
         tam_vetor = n;
         vetor = malloc((size_t)n * sizeof(int));
         for (int i = 0; i < n; i++) vetor[i] = n - i;    /* decrescente; fora da medição */
     }
-    MPI_Barrier(MPI_COMM_WORLD);                         /* todos prontos antes de medir */
+    MPI_Barrier(MPI_COMM_WORLD);                         /* todos esperam aqui até que todo mundo chegue */
     if (my_rank == 0) t0 = MPI_Wtime();                  /* início da região medida */
 
-    if (my_rank != 0) {                                  /* recebo o vetor do pai */
+    if (my_rank != 0) {                                  /* se não sou a raiz, recebo o vetor do pai */
         MPI_Status status;
-        MPI_Probe(pai, TAG, MPI_COMM_WORLD, &status);
-        MPI_Get_count(&status, MPI_INT, &tam_vetor);     /* tamanho vem na mensagem */
-        vetor = malloc((size_t)tam_vetor * sizeof(int));
-        MPI_Recv(vetor, tam_vetor, MPI_INT, pai, TAG, MPI_COMM_WORLD, &status);
+        MPI_Probe(pai, TAG, MPI_COMM_WORLD, &status);   // espera por mensagem do pai, mas não recebe ainda
+        MPI_Get_count(&status, MPI_INT, &tam_vetor);     /* tamanho do vetor vem na mensagem */
+        vetor = malloc((size_t)tam_vetor * sizeof(int));    // aloca espaço para o vetor
+        MPI_Recv(vetor, tam_vetor, MPI_INT, pai, TAG, MPI_COMM_WORLD, &status); // recebe o vetor do pai
     }
 
     int folha = (tam_vetor <= delta);
-    if (folha) {                                         /* conquisto */
+    if (folha) {                                         /* conquisto, ordeno */
         double a = MPI_Wtime();
         bubble_sort(vetor, tam_vetor);
         t_bubble = MPI_Wtime() - a;
     } else {                                             /* divido */
-        if (filho_dir >= P) {
+        if (filho_dir >= P) {   // se filho direito não existe, então o esquerdo também não existe (árvore cheia), logo não há processos suficientes para dividir
             fprintf(stderr, "rank %d: faltam processos (delta=%d, P=%d)\n", my_rank, delta, P);
             MPI_Abort(MPI_COMM_WORLD, 2);
         }
         int meio = tam_vetor / 2;
         /* as duas metades saem antes de qualquer espera: filhos trabalham juntos */
-        MPI_Send(&vetor[0],    meio,             MPI_INT, filho_esq, TAG, MPI_COMM_WORLD);
-        MPI_Send(&vetor[meio], tam_vetor - meio, MPI_INT, filho_dir, TAG, MPI_COMM_WORLD);
+        MPI_Send(&vetor[0],    meio,             MPI_INT, filho_esq, TAG, MPI_COMM_WORLD);  // envia metade esquerda ao filho da esquerda
+        MPI_Send(&vetor[meio], tam_vetor - meio, MPI_INT, filho_dir, TAG, MPI_COMM_WORLD);  // envia metade direita ao filho da direita
         double a = MPI_Wtime();
+        // espera metades ordenadas de volta dos filhos
         MPI_Recv(&vetor[0],    meio,             MPI_INT, filho_esq, TAG, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         MPI_Recv(&vetor[meio], tam_vetor - meio, MPI_INT, filho_dir, TAG, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-        t_espera = MPI_Wtime() - a;
+        t_espera = MPI_Wtime() - a; // espera é o desperdício de tempo do pai, que poderia estar fazendo outra coisa enquanto os filhos trabalham
         int *aux = malloc((size_t)tam_vetor * sizeof(int));
         a = MPI_Wtime();
         intercala(vetor, tam_vetor, aux);
@@ -111,15 +112,15 @@ int main(int argc, char **argv)
 
     double tempo = 0;
     if (my_rank != 0) {
-        MPI_Send(vetor, tam_vetor, MPI_INT, pai, TAG, MPI_COMM_WORLD);
-    } else {
+        MPI_Send(vetor, tam_vetor, MPI_INT, pai, TAG, MPI_COMM_WORLD); // devolve o vetor ordenado ao pai
+    } else {    // se é raiz, mede o tempo total e imprime estatísticas
         tempo = MPI_Wtime() - t0;                        /* fim da região medida */
     }
 
     /* Estatísticas por processo (fora da região medida). */
     double mine[6] = { nivel, tam_vetor, folha, t_bubble, t_merge, t_espera };
     double *todos = (my_rank == 0) ? malloc((size_t)P * 6 * sizeof(double)) : NULL;
-    MPI_Gather(mine, 6, MPI_DOUBLE, todos, 6, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Gather(mine, 6, MPI_DOUBLE, todos, 6, MPI_DOUBLE, 0, MPI_COMM_WORLD); // coleta estatísticas de todos os processos na raiz
 
     if (my_rank == 0) {                                  /* verificação */
         long long erros = 0;

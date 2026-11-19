@@ -46,12 +46,15 @@ void bubble_sort(int *v, int n)
  */
 void intercala(int *v, int n, int *aux)
 {
+    // v tem 2 metades ordenadas
+    // junta metades em 1
+    // aux tem n posições
     int meio = n / 2;
     int i = 0, j = meio, k = 0;
 
-    while (i < meio && j < n)
-        aux[k++] = (v[i] <= v[j]) ? v[i++] : v[j++];
-    while (i < meio)
+    while (i < meio && j < n) // enquanto houver elementos em ambas as metades
+        aux[k++] = (v[i] <= v[j]) ? v[i++] : v[j++]; // coloca menor em aux
+    while (i < meio) // metade acaba, copia o resto da outra metade
         aux[k++] = v[i++];
     while (j < n)
         aux[k++] = v[j++];
@@ -60,12 +63,13 @@ void intercala(int *v, int n, int *aux)
 }
 
 /*
- * A árvore da versão paralela, percorrida em um só processo. A metade
+ * A árvore da versão paralela (modo delta), percorrida em um só processo. A metade
  * esquerda tem n/2 elementos, como a que o pai envia ao filho da esquerda.
  */
 void ordena(int *v, int n, int delta, int *aux)
 {
     if (n <= delta) {                   /* conquista */
+        // é folha, ordena com Bubble Sort
         bubble_sort(v, n);
         return;
     }
@@ -82,16 +86,18 @@ void ordena(int *v, int n, int delta, int *aux)
 static long long n_folhas = 0, menor_folha = -1, maior_folha = 0;
 static void registra_folha(int n)
 {
+    // +1 folha, atualiza menor e maior
     n_folhas++;
     if (menor_folha < 0 || n < menor_folha) menor_folha = n;
     if (n > maior_folha) maior_folha = n;
 }
 void ordena_bal(int *v, int n, int nivel, int rank, int max_rank, int *aux)
 {
-    int ajudante = rank + (1 << nivel);
-    if (ajudante > max_rank) { bubble_sort(v, n); registra_folha(n); return; }
-    int meio = n / 2;
-    ordena_bal(v, meio, nivel + 1, rank, max_rank, aux);
+    // imita a regra do balanceada em 1 unico processo: se o ajudante não existe, conquista; senão, divide e intercala
+    int ajudante = rank + (1 << nivel); // ajudante = rank + 2^nivel
+    if (ajudante > max_rank) { bubble_sort(v, n); registra_folha(n); return; } // se ajudante não existe, conquista
+    int meio = n / 2;   // se ajudante existe, divide e intercala
+    ordena_bal(v, meio, nivel + 1, rank, max_rank, aux);    // processo fica com metade esquerda, envia metade direita ao ajudante
     ordena_bal(v + meio, n - meio, nivel + 1, ajudante, max_rank, aux + meio);
     intercala(v, n, aux);
 }

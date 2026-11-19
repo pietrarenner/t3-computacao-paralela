@@ -25,8 +25,8 @@
 #define TAG 1
 
 /* estatísticas deste processo */
-static int    g_tam_folha = 0, g_divisoes = 0;
-static double g_t_bubble = 0, g_t_merge = 0, g_t_espera = 0;
+static int    g_tam_folha = 0, g_divisoes = 0;  // tamanho da folha desse processo, número de divisões feitas
+static double g_t_bubble = 0, g_t_merge = 0, g_t_espera = 0;    // tempos gastos em cada fase (bubble, merge, espera por ajudante)
 
 static void bubble_sort(int *v, int n)
 {
@@ -52,10 +52,10 @@ static void intercala(int *v, int n, int *aux)
 }
 
 /* Número de bits de r = nível em que o processo r entra na árvore (r=0 -> 0). */
-static int nivel_de_entrada(int r)
+static int nivel_de_entrada(int r) // recebe rank do processo (0..P-1) e devolve nível na árvore (0..)
 {
     int nivel = 0;
-    while ((1 << nivel) <= r) nivel++;
+    while ((1 << nivel) <= r) nivel++;  // nível é o número de bits necessários para representar r (ou floor(log2(r+1)))
     return nivel;
 }
 
@@ -66,8 +66,8 @@ static int nivel_de_entrada(int r)
  */
 static void ordena_paralelo(int *v, int n, int *aux, int nivel, int my_rank, int max_rank)
 {
-    int ajudante = my_rank + (1 << nivel);
-    if (ajudante > max_rank) {                     /* conquista */
+    int ajudante = my_rank + (1 << nivel);  // ajudante = rank + 2^nivel
+    if (ajudante > max_rank) {                     /* conquista, se não houver ajudante é folha */
         double a = MPI_Wtime();
         bubble_sort(v, n);
         g_t_bubble += MPI_Wtime() - a;
@@ -79,14 +79,14 @@ static void ordena_paralelo(int *v, int n, int *aux, int nivel, int my_rank, int
     /* envio assíncrono: o buffer v+n/2 não é alterado por este processo até a
        volta do ajudante, e o MPI_Recv abaixo (dele) só ocorre depois que ele
        recebeu tudo; por isso o request pode ser liberado sem MPI_Wait. */
-    MPI_Isend(v + n / 2, n - n / 2, MPI_INT, ajudante, TAG, MPI_COMM_WORLD, &req);
-    ordena_paralelo(v, n / 2, aux, nivel + 1, my_rank, max_rank);
-    MPI_Request_free(&req);
+    MPI_Isend(v + n / 2, n - n / 2, MPI_INT, ajudante, TAG, MPI_COMM_WORLD, &req); // manda metade direita ao ajudante (rank + 2^nivel), sem esperar entrega
+    ordena_paralelo(v, n / 2, aux, nivel + 1, my_rank, max_rank); // enquanto isso, ordena metade esquerda recursivamente no próximo nível
+    MPI_Request_free(&req); // é seguro: o ajudante só vai ler v+n/2 depois que receber tudo, e este processo só vai escrever v+n/2 depois que o ajudante devolver a metade ordenada
     double a = MPI_Wtime();
-    MPI_Recv(v + n / 2, n - n / 2, MPI_INT, ajudante, TAG, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+    MPI_Recv(v + n / 2, n - n / 2, MPI_INT, ajudante, TAG, MPI_COMM_WORLD, MPI_STATUS_IGNORE); // recebe metade direita ordenada do ajudante
     g_t_espera += MPI_Wtime() - a;
     a = MPI_Wtime();
-    intercala(v, n, aux);
+    intercala(v, n, aux); // intercala as duas metades ordenadas (esquerda e direita) em v
     g_t_merge += MPI_Wtime() - a;
 }
 
@@ -94,8 +94,8 @@ int main(int argc, char **argv)
 {
     MPI_Init(&argc, &argv);
     int my_rank, P;
-    MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
-    MPI_Comm_size(MPI_COMM_WORLD, &P);
+    MPI_Comm_rank(MPI_COMM_WORLD, &my_rank); // dá o número do processo (rank) (0..P-1)
+    MPI_Comm_size(MPI_COMM_WORLD, &P);  // dá o número total de processos (P)
     if (argc != 2) {
         if (my_rank == 0) fprintf(stderr, "uso: %s n\n", argv[0]);
         MPI_Finalize();
@@ -106,32 +106,32 @@ int main(int argc, char **argv)
     int *v = NULL, *aux = NULL, tam = n, pai = -1, nivel = 0;
     double t0 = 0, tempo = 0;
 
-    if (my_rank == 0) {
+    if (my_rank == 0) { // raiz cria e preenche o vetor decrescente
         v = malloc((size_t)n * sizeof(int));
         for (int i = 0; i < n; i++) v[i] = n - i;       /* decrescente */
     }
-    MPI_Barrier(MPI_COMM_WORLD);
-    if (my_rank == 0) {
+    MPI_Barrier(MPI_COMM_WORLD);    // todos esperam aqui até que todo mundo chegue
+    if (my_rank == 0) { // se for raiz, mede o tempo total da ordenação
         t0 = MPI_Wtime();
         aux = malloc((size_t)n * sizeof(int));
-        ordena_paralelo(v, n, aux, 0, 0, max_rank);
+        ordena_paralelo(v, n, aux, 0, 0, max_rank); // ordena tudo, começando no nível 0, rank 0, com ajudantes até max_rank
         tempo = MPI_Wtime() - t0;
     } else {
-        nivel = nivel_de_entrada(my_rank);
-        pai = my_rank - (1 << (nivel - 1));              /* limpa o bit mais alto */
+        nivel = nivel_de_entrada(my_rank); // nível em que o processo entra na árvore (0..)
+        pai = my_rank - (1 << (nivel - 1));              /* rank sem o bit mais alto */
         MPI_Status st;
-        MPI_Probe(pai, TAG, MPI_COMM_WORLD, &st);
-        MPI_Get_count(&st, MPI_INT, &tam);
+        MPI_Probe(pai, TAG, MPI_COMM_WORLD, &st);   // espera por mensagem do pai, mas não recebe ainda
+        MPI_Get_count(&st, MPI_INT, &tam);  // tamanho do vetor vem na mensagem
         v = malloc((size_t)tam * sizeof(int));
         aux = malloc((size_t)tam * sizeof(int));
-        MPI_Recv(v, tam, MPI_INT, pai, TAG, MPI_COMM_WORLD, &st);
-        ordena_paralelo(v, tam, aux, nivel, my_rank, max_rank);
-        MPI_Send(v, tam, MPI_INT, pai, TAG, MPI_COMM_WORLD);
+        MPI_Recv(v, tam, MPI_INT, pai, TAG, MPI_COMM_WORLD, &st); // recebe o vetor do pai
+        ordena_paralelo(v, tam, aux, nivel, my_rank, max_rank); // ordena o vetor recebido, começando no nível em que entrou na árvore
+        MPI_Send(v, tam, MPI_INT, pai, TAG, MPI_COMM_WORLD);    // devolve o vetor ordenado ao pai
     }
 
     double mine[6] = { nivel, tam, g_tam_folha, g_t_bubble, g_t_merge, g_t_espera };
     double *todos = (my_rank == 0) ? malloc((size_t)P * 6 * sizeof(double)) : NULL;
-    MPI_Gather(mine, 6, MPI_DOUBLE, todos, 6, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Gather(mine, 6, MPI_DOUBLE, todos, 6, MPI_DOUBLE, 0, MPI_COMM_WORLD);   // coleta estatísticas de todos os processos na raiz
 
     if (my_rank == 0) {
         long long erros = 0;
